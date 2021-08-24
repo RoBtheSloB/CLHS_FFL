@@ -1,0 +1,189 @@
+---
+title: "CLHS FFL"
+runtime: shiny
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r libraries ,include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(gridExtra)
+library(ggthemes)
+library(scales)
+library(zoo)
+library(knitr)
+library(kableExtra)
+library(RColorBrewer)
+library(toOrdinal)
+library(shiny)
+library(DT)
+library(rsconnect)
+library(httr)
+
+## Need to remove
+rsconnect::setAccountInfo(name='robdaslob',
+			  token='77DFD7FDDE2622091A2CE41C3C40620B',
+			  secret='galxFmxQG+p05eH2jL11TafNmPbw7K2Wc7Zo3Egi')
+```
+
+```{r Inputs ,include=FALSE}
+
+StartYear <- 2016
+EndYear <- 2020
+
+```
+
+
+```{r ReadData ,include=FALSE}
+
+BaseUrl <- "https://fantasy.espn.com/apis/v3/games/ffl/leagueHistory/615594?seasonId="
+TotalYears <- EndYear - StartYear + 1
+
+RequestTeam <- NULL
+RequestBoxscore <- NULL
+
+for(i in 1:TotalYears) {
+  url <- str_c(BaseUrl ,StartYear + i - 1)
+  Sys.sleep(1)
+  RequestTeam[[i]] <- GET(url ,query = list(view = "mTeam"))
+  Sys.sleep(1)
+  RequestBoxscore[[i]] <- GET(url ,query = list(view = "mBoxscore"))
+}
+
+
+RequestTeam
+RequestBoxscore
+
+## Converting from JSON
+JsonConversion <- function(x) {
+  x %>%
+    content("text") %>%
+    fromJSON(flatten = TRUE)
+}
+
+RawTeamList <- map(RequestTeam ,JsonConversion)
+RawBoxscoreList <- map(RequestBoxscore ,JsonConversion)
+
+## Getting a dataset that has a name with each team by year
+TeamNameData <- map(RawTeamList
+    ,~.x %>%
+      as_tibble() %>% 
+      rename(LeagueId = id) %>% 
+      unnest(teams) %>% 
+      rename(TeamId = id) %>% 
+      select(seasonId ,abbrev ,TeamId ,location ,nickname ,primaryOwner) %>%
+      mutate(TeamName = str_c(location ,nickname ,sep = " ")) %>%
+      select(seasonId:abbrev ,TeamName ,everything())
+    ) %>%
+  bind_rows()
+
+OwnerNameData <- map(RawTeamList
+    ,~.x %>%
+      as_tibble() %>% 
+      rename(LeagueId = id) %>% 
+      unnest(members) %>% 
+      rename(MemberId = id) %>%
+      select(seasonId ,firstName ,lastName ,displayName ,MemberId) %>%
+      mutate(FullName = str_c(firstName ,lastName ,sep = " ")) %>%
+      select(seasonId ,FullName ,everything())
+    ) %>%
+  bind_rows()
+
+OwnerTeamData <- TeamNameData %>%
+  left_join(OwnerNameData ,by = c("seasonId" ,"primaryOwner" = "MemberId")) %>%
+  select(seasonId ,FullName ,displayName ,everything())
+
+## Getting the weekly scores into the correct format
+LongWeeklyScores <- map(RawBoxscoreList
+                        ,~.x %>%
+                          as_tibble() %>% 
+                          rename(LeagueId = id) %>%
+                          unnest(teams) %>% 
+                          rename(TeamId = id) %>%
+                          unnest(schedule) %>%
+                          rename(ScheduleId = id) %>%
+                          select(seasonId ,matchupPeriodId ,ScheduleId ,away.teamId ,away.totalPoints ,away.tiebreak ,home.teamId ,home.totalPoints ,home.tiebreak) %>%
+                          gather(key = "TeamType" ,value = "TeamId" ,away.teamId ,home.teamId) %>%
+                          mutate(TeamType = str_remove_all(TeamType ,pattern = "\\.teamId") %>% str_to_title()) %>%
+                          gather(key = "TeamTypePoints" ,value = "TotalPoints" ,away.totalPoints ,home.totalPoints) %>%
+                          mutate(TeamTypePoints = str_remove_all(TeamTypePoints ,pattern = "\\.totalPoints") %>% str_to_title()) %>%
+                          gather(key = "TeamTypeTiebreak" ,value = "Tiebreak" ,away.tiebreak ,home.tiebreak) %>%
+                          mutate(TeamTypeTiebreak = str_remove_all(TeamTypeTiebreak ,pattern = "\\.tiebreak") %>% str_to_title()) %>%
+                          filter(TeamType == TeamTypePoints & TeamType == TeamTypeTiebreak) %>%
+                          select(-c(TeamTypeTiebreak ,TeamTypePoints)) %>%
+                          left_join(OwnerTeamData ,by = c("seasonId" ,"TeamId")) %>%
+                          select(seasonId:Tiebreak ,firstName ,FullName ,TeamName ,abbrev ,nickname) %>%
+                          distinct() %>%
+                          arrange(ScheduleId ,TeamType)
+                        ) %>%
+  bind_rows()
+
+PlayoffWeekStart <- LongWeeklyScores %>%
+  filter(is.na(TotalPoints)) %>%
+  group_by(seasonId) %>%
+  summarise(PlayoffStartWeek = min(matchupPeriodId)) %>%
+  ungroup()
+  
+LongScoringData <- LongWeeklyScores %>%
+  select(seasonId:firstName ,TeamName) %>%
+  left_join(PlayoffWeekStart ,by = "seasonId") %>%
+  group_by(seasonId ,ScheduleId) %>%
+  mutate(WinningPoints    = max(TotalPoints ,na.rm = TRUE)
+         ,LosingPoints    = min(TotalPoints ,na.rm = TRUE)
+         ,WinningTiebreak = max(Tiebreak ,na.rm = TRUE)
+         ,LosingTiebreak  = min(Tiebreak ,na.rm = TRUE)
+         ,Win             = if_else(WinningPoints == LosingPoints 
+                                    ,if_else(Tiebreak == WinningTiebreak ,1 ,0) 
+                                    ,if_else(TotalPoints == WinningPoints ,1 ,0)
+                                    )
+         ,WeekType        = if_else(matchupPeriodId >= PlayoffStartWeek ,"Playoffs" ,"Regular")
+         ,OpposingPoints  = if_else(TotalPoints == WinningPoints ,LosingPoints ,WinningPoints)
+         ) %>%
+  select(-contains("Winning") ,-contains("Losing") ,-PlayoffStartWeek) %>%
+  select(seasonId:TotalPoints ,OpposingPoints ,everything()) %>%
+  ungroup() %>%
+  filter(!is.na(TeamId)) %>%
+  group_by(matchupPeriodId) %>%
+  arrange(matchupPeriodId ,TotalPoints) %>%
+  mutate(WeekRank = rank(TotalPoints) - 1
+         ,MaxRank = max(WeekRank)
+         ,ExpWins = WeekRank / MaxRank) %>%
+  ungroup()
+
+
+LongScoringData %>%
+  filter(WeekType == "Regular") %>%
+  group_by(seasonId ,firstName) %>%
+  summarise(ExpWins     = sum(ExpWins)
+            ,ActualWins = sum(Win)
+            ,Diff       = ActualWins - ExpWins
+            ,Points     = sum(TotalPoints)
+            ,OppPoints  = sum(OpposingPoints)
+            ) %>%
+  arrange(seasonId ,desc(ActualWins) ,desc(Points)) %>%
+  ungroup() %>%
+  View()
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
