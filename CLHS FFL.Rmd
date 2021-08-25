@@ -23,11 +23,6 @@ library(rsconnect)
 library(httr)
 library(tidyverse)
 
-## Need to remove
-rsconnect::setAccountInfo(name='robdaslob',
-			  token='77DFD7FDDE2622091A2CE41C3C40620B',
-			  secret='galxFmxQG+p05eH2jL11TafNmPbw7K2Wc7Zo3Egi')
-
 options(dplyr.summarise.inform=F)
 
 ```
@@ -55,7 +50,6 @@ for(i in 1:TotalYears) {
   Sys.sleep(1)
   RequestBoxscore[[i]] <- GET(url ,query = list(view = "mBoxscore"))
 }
-
 
 ## Converting from JSON
 JsonConversion <- function(x) {
@@ -154,25 +148,13 @@ LongScoringData <- LongWeeklyScores %>%
          ,ExpWins = WeekRank / MaxRank) %>%
   ungroup()
 
-
-LongScoringData %>%
-  filter(WeekType == "Regular") %>%
-  group_by(seasonId ,firstName) %>%
-  summarise(ExpWins     = sum(ExpWins)
-            ,ActualWins = sum(Win)
-            ,Diff       = ActualWins - ExpWins
-            ,Points     = sum(TotalPoints)
-            ,OppPoints  = sum(OpposingPoints)
-            ) %>%
-  arrange(seasonId ,desc(ActualWins) ,desc(Points)) %>%
-  ungroup()
-
-LongScoringData %>%
+PlayerNames <- LongScoringData %>%
   select(firstName) %>%
+  arrange(firstName) %>%
   distinct() %>%
-  View()
+  pull()
 
-LongScoringData %>%
+TopWinPercentPlayer <- LongScoringData %>%
   filter(WeekType == "Regular") %>%
   group_by(firstName) %>%
   summarise(ExpWins        = sum(ExpWins)
@@ -185,28 +167,112 @@ LongScoringData %>%
             ,ActWinPercent = ActualWins / GamesPlayed
             ) %>%
   arrange(desc(ActWinPercent) ,desc(ExpWins) ,desc(Points)) %>%
-  ungroup()
+  ungroup() %>% 
+  slice(1) %>% 
+  select(firstName) %>%
+  pull()
+
+# LongScoringData %>%
+#   filter(WeekType == "Regular") %>% 
+#   arrange(seasonId ,firstName ,matchupPeriodId) %>%
+#   group_by(firstName) %>% 
+#   summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
+#   arrange(desc(LongestWinStreak)) %>%
+#   select(LongestWinStreak) %>%
+#   pull() %>%
+#   quantile(probs = c(.3333 ,.6666))
+#   
+# 
+# 
+# LongScoringData %>%
+#   filter(WeekType == "Regular") %>%
+#   group_by(seasonId ,firstName) %>%
+#   summarise(ExpWins     = sum(ExpWins)
+#             ,ActualWins = sum(Win)
+#             ,Diff       = ActualWins - ExpWins
+#             ,Points     = sum(TotalPoints)
+#             ,OppPoints  = sum(OpposingPoints)
+#             ) %>%
+#   arrange(seasonId ,desc(ActualWins) ,desc(Points)) %>%
+
+
+#   ungroup() %>%
+#   select(firstName)
+  
 
 ```
 
-Player Performance by Teammate {data-navmenu="Basketball Tracking"}
+Player Performance
 =======================================================================
 
 Column {data-width=200 .sidebar}
 -----------------------------------------------------------------------
 
-### Player Filter
+### Filters
 
 ```{r}
 
 selectInput("PlayerInput"
             ,"Select a player:"
-            ,choices = PlayerNames$Player
-            ,selected = TopPlusMinusPlayer)
+            ,choices = PlayerNames
+            ,selected = TopWinPercentPlayer)
+
+selectInput("YearInput"
+            ,"Select a player:"
+            ,choices = PlayerNames
+            ,selected = TopWinPercentPlayer)
 
 ```
 
 
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Longest Win Streak
+
+```{r}
+
+ReactiveLongestWinStreak <- reactive({
+  LongScoringData %>%
+    filter(WeekType == "Regular" & firstName == input$PlayerInput & seasonId %in% input$YearInput) %>% 
+    summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
+    as.numeric()
+})
+
+ReactiveLowerQuantile <- reactive({
+  LongScoringData %>%
+    filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
+    group_by(firstName) %>% 
+    summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
+    arrange(desc(LongestWinStreak)) %>%
+    select(LongestWinStreak) %>%
+    pull() %>%
+    quantile(probs = c(.3333))
+})
+
+ReactiveUpperQuantile <- reactive({
+  LongScoringData %>%
+    filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
+    group_by(firstName) %>% 
+    summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
+    arrange(desc(LongestWinStreak)) %>%
+    select(LongestWinStreak) %>%
+    pull() %>%
+    quantile(probs = c(.6666))
+})
+
+
+renderValueBox(
+  valueBox(ReactiveLongestWinStreak()
+           ,color = ifelse(ReactiveLongestWinStreak() < ReactiveLowerQuantile()  ,"danger" ,ifelse(ReactiveLongestWinStreak() < ReactiveUpperQuantile()  ,"warning" ,"success")))
+)
+
+```
+
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 
 
