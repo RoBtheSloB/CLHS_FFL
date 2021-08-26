@@ -178,6 +178,19 @@ TopWinPercentPlayer <- LongScoringData %>%
   select(firstName) %>%
   pull()
 
+
+  # LongScoringData %>%
+  #   mutate(Lose = if_else(Win == 1 ,0 ,1)) %>%
+  #   filter(WeekType == "Regular") %>%
+  #   arrange(firstName ,seasonId ,matchupPeriodId) %>%
+  #   group_by(firstName) %>% 
+  #   summarise(LongestLoseStreak = max(rle(Lose == 1)[[1]][rle(Lose == 1)[[2]] == 1])) %>%
+  #   arrange(desc(LongestLoseStreak)) %>%
+  #   select(LongestLoseStreak) %>%
+  #   pull() %>%
+  #   quantile(probs = c(.3333))
+  
+  
   # LongScoringData %>%
   #   filter(WeekType == "Regular" & firstName == "weston" & seasonId %in% c(2016:2020)) %>% 
   #   arrange(seasonId ,matchupPeriodId) %>% 
@@ -250,7 +263,7 @@ ReactiveLongestWinStreak <- reactive({
     as.numeric()
 })
 
-ReactiveLowerQuantile <- reactive({
+ReactiveWinLowerQuantile <- reactive({
   LongScoringData %>%
     filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
     arrange(seasonId ,matchupPeriodId) %>% 
@@ -262,7 +275,7 @@ ReactiveLowerQuantile <- reactive({
     quantile(probs = c(.3333))
 })
 
-ReactiveUpperQuantile <- reactive({
+ReactiveWinUpperQuantile <- reactive({
   LongScoringData %>%
     filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
     arrange(seasonId ,matchupPeriodId) %>% 
@@ -277,11 +290,57 @@ ReactiveUpperQuantile <- reactive({
 
 renderValueBox(
   valueBox(ReactiveLongestWinStreak()
-           ,color = ifelse(ReactiveLongestWinStreak() < ReactiveLowerQuantile()  ,"danger" ,ifelse(ReactiveLongestWinStreak() <= ReactiveUpperQuantile()  ,"warning" ,"success")))
+           ,color = ifelse(ReactiveLongestWinStreak() < ReactiveWinLowerQuantile()  ,"danger" ,ifelse(ReactiveLongestWinStreak() <= ReactiveWinUpperQuantile()  ,"warning" ,"success")))
 )
 
 ```
 
+### Longest Lose Streak
+
+```{r}
+
+ReactiveLongestLoseStreak <- reactive({
+  LongScoringData %>%
+    mutate(Lose = if_else(Win == 1 ,0 ,1)) %>% 
+    filter(WeekType == "Regular" & firstName == input$PlayerInput & seasonId %in% input$YearInput) %>% 
+    arrange(seasonId ,matchupPeriodId) %>% 
+    summarise(LongestLoseStreak = max(rle(Lose == 1)[[1]][rle(Lose == 1)[[2]] == 1])) %>%
+    as.numeric()
+})
+
+ReactiveLoseLowerQuantile <- reactive({
+  LongScoringData %>%
+    mutate(Lose = if_else(Win == 1 ,0 ,1)) %>%
+    filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
+    arrange(seasonId ,matchupPeriodId) %>% 
+    group_by(firstName) %>% 
+    summarise(LongestLoseStreak = max(rle(Lose == 1)[[1]][rle(Lose == 1)[[2]] == 1])) %>%
+    arrange(desc(LongestLoseStreak)) %>%
+    select(LongestLoseStreak) %>%
+    pull() %>%
+    quantile(probs = c(.3333))
+})
+
+ReactiveLoseUpperQuantile <- reactive({
+  LongScoringData %>%
+    mutate(Lose = if_else(Win == 1 ,0 ,1)) %>%
+    filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
+    arrange(seasonId ,matchupPeriodId) %>% 
+    group_by(firstName) %>% 
+    summarise(LongestLoseStreak = max(rle(Lose == 1)[[1]][rle(Lose == 1)[[2]] == 1])) %>%
+    arrange(desc(LongestLoseStreak)) %>%
+    select(LongestLoseStreak) %>%
+    pull() %>%
+    quantile(probs = c(.6666))
+})
+
+
+renderValueBox(
+  valueBox(ReactiveLongestLoseStreak()
+           ,color = ifelse(ReactiveLongestLoseStreak() > ReactiveLoseUpperQuantile()  ,"danger" ,ifelse(ReactiveLongestLoseStreak() >= ReactiveLoseLowerQuantile()  ,"warning" ,"success")))
+)
+
+```
 
 
 Column {data-width=350}
