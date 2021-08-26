@@ -154,6 +154,12 @@ PlayerNames <- LongScoringData %>%
   distinct() %>%
   pull()
 
+SeasonYears <- LongScoringData %>%
+  select(seasonId) %>%
+  arrange(seasonId) %>%
+  distinct() %>%
+  pull()
+
 TopWinPercentPlayer <- LongScoringData %>%
   filter(WeekType == "Regular") %>%
   group_by(firstName) %>%
@@ -172,18 +178,21 @@ TopWinPercentPlayer <- LongScoringData %>%
   select(firstName) %>%
   pull()
 
+  # LongScoringData %>%
+  #   filter(WeekType == "Regular" & firstName == "weston" & seasonId %in% c(2016:2020)) %>% 
+  #   arrange(seasonId ,matchupPeriodId) %>% 
+  #   summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
+  #   as.numeric()
+
 # LongScoringData %>%
-#   filter(WeekType == "Regular") %>% 
-#   arrange(seasonId ,firstName ,matchupPeriodId) %>%
-#   group_by(firstName) %>% 
+#   filter(WeekType == "Regular" & firstName == "Luke") %>%
+#   arrange(seasonId ,matchupPeriodId) %>%
+#   group_by(firstName) %>%
 #   summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
-#   arrange(desc(LongestWinStreak)) %>%
-#   select(LongestWinStreak) %>%
-#   pull() %>%
-#   quantile(probs = c(.3333 ,.6666))
-#   
-# 
-# 
+#   arrange(desc(LongestWinStreak))
+
+
+
 # LongScoringData %>%
 #   filter(WeekType == "Regular") %>%
 #   group_by(seasonId ,firstName) %>%
@@ -218,9 +227,10 @@ selectInput("PlayerInput"
             ,selected = TopWinPercentPlayer)
 
 selectInput("YearInput"
-            ,"Select a player:"
-            ,choices = PlayerNames
-            ,selected = TopWinPercentPlayer)
+            ,"Select year(s):"
+            ,choices = SeasonYears
+            ,selected = SeasonYears
+            ,multiple = TRUE)
 
 ```
 
@@ -235,6 +245,7 @@ Column {data-width=450}
 ReactiveLongestWinStreak <- reactive({
   LongScoringData %>%
     filter(WeekType == "Regular" & firstName == input$PlayerInput & seasonId %in% input$YearInput) %>% 
+    arrange(seasonId ,matchupPeriodId) %>% 
     summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
     as.numeric()
 })
@@ -242,6 +253,7 @@ ReactiveLongestWinStreak <- reactive({
 ReactiveLowerQuantile <- reactive({
   LongScoringData %>%
     filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
+    arrange(seasonId ,matchupPeriodId) %>% 
     group_by(firstName) %>% 
     summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
     arrange(desc(LongestWinStreak)) %>%
@@ -253,6 +265,7 @@ ReactiveLowerQuantile <- reactive({
 ReactiveUpperQuantile <- reactive({
   LongScoringData %>%
     filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
+    arrange(seasonId ,matchupPeriodId) %>% 
     group_by(firstName) %>% 
     summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
     arrange(desc(LongestWinStreak)) %>%
@@ -264,7 +277,7 @@ ReactiveUpperQuantile <- reactive({
 
 renderValueBox(
   valueBox(ReactiveLongestWinStreak()
-           ,color = ifelse(ReactiveLongestWinStreak() < ReactiveLowerQuantile()  ,"danger" ,ifelse(ReactiveLongestWinStreak() < ReactiveUpperQuantile()  ,"warning" ,"success")))
+           ,color = ifelse(ReactiveLongestWinStreak() < ReactiveLowerQuantile()  ,"danger" ,ifelse(ReactiveLongestWinStreak() <= ReactiveUpperQuantile()  ,"warning" ,"success")))
 )
 
 ```
@@ -273,10 +286,6 @@ renderValueBox(
 
 Column {data-width=350}
 -----------------------------------------------------------------------
-
-
-
-
 
 
 
