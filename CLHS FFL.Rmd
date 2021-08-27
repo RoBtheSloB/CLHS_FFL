@@ -179,50 +179,6 @@ TopWinPercentPlayer <- LongScoringData %>%
   pull()
 
 
-
-  # LongScoringData %>%
-  #   mutate(Lose = if_else(Win == 1 ,0 ,1)) %>%
-  #   filter(WeekType == "Regular") %>%
-  #   arrange(firstName ,seasonId ,matchupPeriodId) %>%
-  #   group_by(firstName) %>% 
-  #   summarise(LongestLoseStreak = max(rle(Lose == 1)[[1]][rle(Lose == 1)[[2]] == 1])) %>%
-  #   arrange(desc(LongestLoseStreak)) %>%
-  #   select(LongestLoseStreak) %>%
-  #   pull() %>%
-  #   quantile(probs = c(.3333))
-  
-  
-  # LongScoringData %>%
-  #   filter(WeekType == "Regular" & firstName == "weston" & seasonId %in% c(2016:2020)) %>% 
-  #   arrange(seasonId ,matchupPeriodId) %>% 
-  #   summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
-  #   as.numeric()
-
-# LongScoringData %>%
-#   filter(WeekType == "Regular" & firstName == "Luke") %>%
-#   arrange(seasonId ,matchupPeriodId) %>%
-#   group_by(firstName) %>%
-#   summarise(LongestWinStreak = max(rle(Win == 1)[[1]][rle(Win == 1)[[2]] == 1])) %>%
-#   arrange(desc(LongestWinStreak))
-
-
-
-# LongScoringData %>%
-#   filter(WeekType == "Regular") %>%
-#   group_by(seasonId ,firstName) %>%
-#   summarise(ExpWins     = sum(ExpWins)
-#             ,ActualWins = sum(Win)
-#             ,Diff       = ActualWins - ExpWins
-#             ,Points     = sum(TotalPoints)
-#             ,OppPoints  = sum(OpposingPoints)
-#             ) %>%
-#   arrange(seasonId ,desc(ActualWins) ,desc(Points)) %>%
-
-
-#   ungroup() %>%
-#   select(firstName)
-  
-
 ```
 
 Player Performance
@@ -256,7 +212,7 @@ Column {data-width=450}
 
 ```{r}
 WinStreakData <- reactive({
-  LongScoringData %>%  
+  LongScoringData %>%
     filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
     arrange(firstName ,seasonId ,matchupPeriodId) %>%
     group_by(firstName) %>%
@@ -274,42 +230,63 @@ WinStreakData <- reactive({
     filter(Outcome == "Win")
 })
 
-
+## This is a ridiculous workaround to setting the order of the columns
+## There is 100% a better way to do it
 renderPlot({
-ggplot(WinStreakData() ,aes(x = firstName ,y = Streak)) +
-    geom_col() +
-    coord_flip() +
-    facet_wrap(. ~ LengthType) +
-    scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
-    theme_fivethirtyeight() 
+  WinStreakData() %>%
+    filter(LengthType == "Longest") %>%
+    arrange(desc(Streak)) %>%
+    mutate(firstName2 = reorder(firstName ,Streak)) %>%
+    bind_rows(WinStreakData() %>% filter(LengthType == "Current")) %>%
+    mutate(firstName2 = coalesce(firstName2 ,as.factor(firstName))) %>%
+    ggplot(aes(x = firstName2 ,y = Streak)) +
+      geom_col() +
+      coord_flip() +
+      facet_wrap(. ~ LengthType) +
+      scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
+      theme_fivethirtyeight()
 })
 
 ```
 
 ### Regular Season Lose Streak
 
-```{r ,include=FALSE}
-# LoseStreakData <- StreakChartData %>% 
-#   filter(Outcome == "Lose")
-# 
-# LoseStreakLevels <- LoseStreakData %>%
-#   filter(LengthType == "Longest") %>%
-#   group_by(firstName) %>%
-#   summarise(MaxStreak = max(Streak)) %>%
-#   arrange(MaxStreak ,desc(firstName)) %>%
-#   select(firstName) %>%
-#   pull()
-# 
-# LoseStreakData$firstName <- factor(LoseStreakData$firstName ,levels = LoseStreakLevels)
-# 
-# renderPlot({
-# ggplot(LoseStreakData ,aes(x = firstName ,y = Streak)) +
-#     geom_col() +
-#     coord_flip() +
-#     facet_wrap(. ~ LengthType) +
-#     scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
-#     theme_fivethirtyeight() 
-# })
+```{r}
+LoseStreakData <- reactive({
+  LongScoringData %>%  
+    filter(WeekType == "Regular" & seasonId %in% input$YearInput) %>%
+    arrange(firstName ,seasonId ,matchupPeriodId) %>%
+    group_by(firstName) %>%
+    summarise(LongestLoseStreak  = max(rle(Win)$lengths[rle(Win)$values==0])
+              ,LongestWinStreak  = max(rle(Win)$lengths[rle(Win)$values==1])
+              ,CurrentLoseStreak = ifelse(rle(Win)$values[length(rle(Win)$values)]==0 ,rle(Win)$lengths[rle(Win)$values==0][length(rle(Win)$lengths[rle(Win)$values==0])] ,0)
+              ,CurrentWinStreak  = ifelse(rle(Win)$values[length(rle(Win)$values)]==1 ,rle(Win)$lengths[rle(Win)$values==1][length(rle(Win)$lengths[rle(Win)$values==1])] ,0)
+              ) %>%
+  gather(key = "StreakType" ,value = "Streak" ,-firstName) %>%
+  mutate(Outcome     = ifelse(str_detect(StreakType ,pattern = "Win") ,"Win" ,"Lose")
+         ,LengthType = ifelse(str_detect(StreakType ,pattern = "Longest") ,"Longest" ,"Current") %>%
+                          factor(levels = c("Longest" ,"Current"))
+         ) %>%
+  select(firstName:StreakType ,Outcome:LengthType ,Streak) %>%
+    filter(Outcome == "Lose")
+})
+
+## This is a ridiculous workaround to setting the order of the columns
+## There is 100% a better way to do it
+renderPlot({
+  LoseStreakData() %>%
+    filter(LengthType == "Longest") %>% 
+    arrange(desc(Streak)) %>%
+    mutate(firstName2 = reorder(firstName ,Streak)) %>% 
+    bind_rows(LoseStreakData() %>% filter(LengthType == "Current")) %>%
+    mutate(firstName2 = coalesce(firstName2 ,as.factor(firstName))) %>% 
+    ggplot(aes(x = firstName2 ,y = Streak)) +
+      geom_col() +
+      coord_flip() +
+      facet_wrap(. ~ LengthType) +
+      scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
+      theme_fivethirtyeight()  
+})
 
 ```
 
