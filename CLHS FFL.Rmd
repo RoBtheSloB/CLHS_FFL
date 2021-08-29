@@ -8,7 +8,10 @@ output:
 ---
 
 ```{r libraries ,include=FALSE}
+## Be sure to run the ESPN Scrape before running this
+
 library(flexdashboard)
+library(htmlwidgets)
 library(jsonlite)
 library(gridExtra)
 library(readr)
@@ -112,6 +115,28 @@ OpponentData <- AllMatchupOptions %>%
   select(seasonId ,matchupPeriodId ,WeekType ,ScheduleId ,Owner ,Opponent ,TotalPoints ,OpposingPoints ,Win) %>% 
   mutate(PointMargin = TotalPoints - OpposingPoints)
 
+LongScoringData %>% 
+  left_join(OwnerTeamData %>% select(seasonId ,TeamId ,PlayoffAppearance) ,by = c("seasonId" ,"TeamId")) %>% 
+  select(seasonId ,TeamId ,firstName ,matchupPeriodId ,ScheduleId ,WeekType ,Win ,PlayoffAppearance) %>% 
+  arrange(TeamId ,seasonId ,matchupPeriodId) %>% 
+  mutate(PriorWeekResult = lag(Win)
+         ,WeekType2 = if_else(WeekType == "Regular" 
+                              ,WeekType 
+                              ,if_else(PlayoffAppearance == 0
+                                       ,"Consolation"
+                                       ,if_else(PriorWeekResult == 0
+                                                ,"Consolation"
+                                                ,"Playoffs"
+                                                )
+                                       )
+                              )
+         ) %>% 
+  filter(WeekType2 == "Playoffs") %>% 
+  arrange(seasonId ,matchupPeriodId ,ScheduleId) %>% View()
+  
+LongScoringData %>% 
+  left_join(OwnerTeamData %>% select(seasonId ,TeamId ,PlayoffAppearance) ,by = c("seasonId" ,"TeamId")) %>%
+
 ```
 
 Leaderboard
@@ -163,7 +188,7 @@ LongScoringData %>%
       coord_flip() +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
       scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      guides(fill = FALSE) +
+      guides(fill ="none") +
       theme_fivethirtyeight()
 })
 
@@ -209,7 +234,7 @@ renderPlot({
       # geom_hline(yintercept = 0.5) +
       # facet_wrap(. ~ WinType) +
       # scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      # guides(fill = FALSE) +
+      # guides(fill ="none") +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
       theme_fivethirtyeight()
 })
@@ -258,7 +283,7 @@ renderPlot({
       geom_col() +
       coord_flip() +
       scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      guides(fill = FALSE) +
+      guides(fill ="none") +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = BreakFunction(1)) +
       theme_fivethirtyeight()
 })
@@ -284,7 +309,7 @@ renderPlot({
       geom_col() +
       coord_flip() +
       scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      guides(fill = FALSE) +
+      guides(fill ="none") +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = BreakFunction(1)) +
       theme_fivethirtyeight()
 })
@@ -292,7 +317,7 @@ renderPlot({
 ```
 
 
-Owner Statistics
+Statistics
 =======================================================================
 
 Column {data-width=200 .sidebar}
@@ -358,7 +383,7 @@ renderPlot({
       # geom_hline(yintercept = 0.5) +
       # facet_wrap(. ~ WinType) +
       # scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      # guides(fill = FALSE) +
+      # guides(fill ="none") +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
       theme_fivethirtyeight()
 })
@@ -384,7 +409,7 @@ renderPlot({
       coord_flip() +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
       scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      guides(fill = FALSE) +    
+      guides(fill ="none") +    
       theme_fivethirtyeight()  
 })
 
@@ -463,7 +488,7 @@ renderPlot({
 ```
 
 
-Summary
+Owner Performance
 =======================================================================
 
 Column {data-width=200 .sidebar}
@@ -600,7 +625,7 @@ renderPlot({
                            #                   )
                            #           )
                            ) +
-      guides(fill = FALSE) +
+      guides(fill ="none") +
       theme_fivethirtyeight()
 })
 
@@ -625,7 +650,7 @@ renderPlot({
       coord_flip() +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
       # scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      guides(fill = FALSE) +
+      guides(fill ="none") +
       theme_fivethirtyeight()
 })
 
@@ -661,8 +686,14 @@ renderGauge({
 
 ```
 
+### Win Percent by Opponent
 
-Owner Page
+```{r}
+
+```
+
+
+Season Recaps
 =======================================================================
 
 Column {data-width=200 .sidebar}
@@ -734,7 +765,7 @@ renderPlot({
       facet_wrap(. ~ LengthType) +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
       scale_fill_gradientn(colors = c("darkred", "tomato1","palegreen", "darkgreen")) +
-      guides(fill = FALSE) +
+      guides(fill ="none") +
       theme_fivethirtyeight()
 })
 
@@ -784,7 +815,7 @@ renderPlot({
       facet_wrap(. ~ LengthType) +
       scale_y_continuous(labels = comma_format(accuracy = 1) ,breaks = pretty_breaks()) +
       scale_fill_gradientn(colors = c("darkgreen", "palegreen","tomato1", "darkred")) +
-      guides(fill = FALSE) +    
+      guides(fill ="none") +    
       theme_fivethirtyeight()  
 })
 
