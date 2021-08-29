@@ -11,6 +11,7 @@ output:
 library(flexdashboard)
 library(jsonlite)
 library(gridExtra)
+library(readr)
 library(ggthemes)
 library(scales)
 library(zoo)
@@ -27,134 +28,17 @@ options(dplyr.summarise.inform=F)
 
 ```
 
-```{r Inputs ,include=FALSE}
-
-StartYear <- 2016
-EndYear <- 2020
-
-```
-
-
 ```{r ReadData ,include=FALSE}
-
-BaseUrl <- "https://fantasy.espn.com/apis/v3/games/ffl/leagueHistory/615594?seasonId="
-TotalYears <- EndYear - StartYear + 1
-
-RequestTeam <- NULL
-RequestBoxscore <- NULL
-RequestDraftDetail <- NULL
-RequestSettings <- NULL
-
-for(i in 1:TotalYears) {
-  url <- str_c(BaseUrl ,StartYear + i - 1)
-  Sys.sleep(1)
-  RequestTeam[[i]] <- GET(url ,query = list(view = "mTeam"))
-  Sys.sleep(1)
-  RequestBoxscore[[i]] <- GET(url ,query = list(view = "mBoxscore"))
-  Sys.sleep(1)
-  RequestSettings[[i]] <- GET(url ,query = list(view = "mSettings"))
-}
-
-## Converting from JSON
-JsonConversion <- function(x) {
-  x %>%
-    content("text") %>%
-    fromJSON(flatten = TRUE)
-}
-
-RawTeamList <- map(RequestTeam ,JsonConversion)
-RawBoxscoreList <- map(RequestBoxscore ,JsonConversion)
-RawSettingsList <- map(RequestSettings ,JsonConversion)
-
 ## Getting a dataset that has a name with each team by year
-TeamNameData <- map(RawTeamList
-    ,~.x %>%
-      as_tibble() %>% 
-      rename(LeagueId = id) %>% 
-      unnest(teams) %>% 
-      rename(TeamId = id) %>% 
-      select(seasonId ,abbrev ,TeamId ,location ,nickname ,primaryOwner ,playoffSeed) %>%
-      mutate(TeamName = str_c(location ,nickname ,sep = " ")) %>%
-      select(seasonId:abbrev ,TeamName ,everything())
-    ) %>%
-  bind_rows()
+TeamNameData <- read_csv("Team Name.csv")
+OwnerNameData <- read_csv("Owner Name.csv")
+SettingsData <- read_csv("Settings.csv")
+DraftOrderData <- read_csv("Draft Order.csv")
+TransactionData <- read_csv("Transactions.csv")
+OwnerTeamData <- read_csv("Owner and Teams.csv")
+LongWeeklyScores <- read_csv("Scoreboard.csv")
 
-OwnerNameData <- map(RawTeamList
-    ,~.x %>%
-      as_tibble() %>% 
-      rename(LeagueId = id) %>% 
-      unnest(members) %>% 
-      rename(MemberId = id) %>%
-      select(seasonId ,firstName ,lastName ,displayName ,MemberId) %>%
-      mutate(FullName = str_c(firstName ,lastName ,sep = " ")) %>%
-      select(seasonId ,FullName ,everything())
-    ) %>%
-  bind_rows()
-
-SettingsData <- map(RawSettingsList
-                    ,~.x %>% 
-                      as_tibble() %>% 
-                      rename(LeagueId = id) %>% 
-                      select(seasonId ,settings.scheduleSettings.playoffTeamCount ,settings.scheduleSettings.matchupPeriodCount)
-                    ) %>%
-  bind_rows()
-
-DraftOrderData <- map(RawSettingsList
-                      ,~.x %>% 
-                        as_tibble() %>% 
-                        rename(LeagueId = id) %>% 
-                        select(seasonId ,settings.draftSettings.pickOrder) %>% 
-                        unnest(settings.draftSettings.pickOrder) %>% 
-                        rename(teamId = settings.draftSettings.pickOrder) %>% 
-                        mutate(PickNumber = row_number())
-                      ) %>% 
-  bind_rows()
-
-TransactionData <- map(RawTeamList
-                        ,~.x %>%
-                          as_tibble() %>% 
-                          rename(LeagueId = id) %>% 
-                          unnest(teams) %>% 
-                          rename(TeamId = id) %>%
-                          select(seasonId ,TeamId ,rankCalculatedFinal ,transactionCounter.acquisitions ,transactionCounter.trades)
-                       ) %>%
-  bind_rows() %>% 
-  mutate(Championship = if_else(rankCalculatedFinal == 1 ,1 ,0))
-
-
-OwnerTeamData <- TeamNameData %>%
-  left_join(OwnerNameData ,by = c("seasonId" ,"primaryOwner" = "MemberId")) %>%
-  left_join(DraftOrderData ,by = c("seasonId" ,"TeamId" = "teamId")) %>% 
-  left_join(TransactionData ,by = c("seasonId" ,"TeamId")) %>% 
-  left_join(SettingsData ,by = "seasonId") %>% 
-  mutate(PlayoffAppearance = if_else(playoffSeed <= settings.scheduleSettings.playoffTeamCount ,1 ,0)) %>% 
-  select(seasonId ,FullName ,displayName ,everything())
-
-## Getting the weekly scores into the correct format
-LongWeeklyScores <- map(RawBoxscoreList
-                        ,~.x %>%
-                          as_tibble() %>% 
-                          rename(LeagueId = id) %>%
-                          unnest(teams) %>% 
-                          rename(TeamId = id) %>%
-                          unnest(schedule) %>%
-                          rename(ScheduleId = id) %>%
-                          select(seasonId ,matchupPeriodId ,ScheduleId ,away.teamId ,away.totalPoints ,away.tiebreak ,home.teamId ,home.totalPoints ,home.tiebreak) %>%
-                          gather(key = "TeamType" ,value = "TeamId" ,away.teamId ,home.teamId) %>%
-                          mutate(TeamType = str_remove_all(TeamType ,pattern = "\\.teamId") %>% str_to_title()) %>%
-                          gather(key = "TeamTypePoints" ,value = "TotalPoints" ,away.totalPoints ,home.totalPoints) %>%
-                          mutate(TeamTypePoints = str_remove_all(TeamTypePoints ,pattern = "\\.totalPoints") %>% str_to_title()) %>%
-                          gather(key = "TeamTypeTiebreak" ,value = "Tiebreak" ,away.tiebreak ,home.tiebreak) %>%
-                          mutate(TeamTypeTiebreak = str_remove_all(TeamTypeTiebreak ,pattern = "\\.tiebreak") %>% str_to_title()) %>%
-                          filter(TeamType == TeamTypePoints & TeamType == TeamTypeTiebreak) %>%
-                          select(-c(TeamTypeTiebreak ,TeamTypePoints)) %>%
-                          left_join(OwnerTeamData ,by = c("seasonId" ,"TeamId")) %>%
-                          select(seasonId:Tiebreak ,firstName ,FullName ,TeamName ,abbrev ,nickname ,PickNumber) %>%
-                          distinct() %>%
-                          arrange(ScheduleId ,TeamType)
-                        ) %>%
-  bind_rows()
-
+## Getting data into the correct format for all the charts
 PlayoffWeekStart <- SettingsData %>%
   mutate(PlayoffStartWeek = settings.scheduleSettings.matchupPeriodCount + 1) %>% 
   select(seasonId ,PlayoffStartWeek)

@@ -1,0 +1,1127 @@
+seasonId,matchupPeriodId,ScheduleId,TeamType,TeamId,TotalPoints,Tiebreak,firstName,FullName,TeamName,abbrev,nickname,PickNumber
+2016,1,0,Away,11,171,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,1,0,Home,5,136,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,1,1,Away,7,193,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,1,1,Home,14,187,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,1,2,Away,3,168,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,1,2,Home,1,126,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,1,3,Away,8,142,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,1,3,Home,4,106,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,1,4,Away,2,89,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,1,4,Home,13,164,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,1,5,Away,9,118,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,1,5,Home,12,135,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,1,6,Away,10,159,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,1,6,Home,6,131,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,2,7,Away,12,158,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,2,7,Home,11,145,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,2,8,Away,8,92,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,2,8,Home,7,108,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,2,9,Away,5,123,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,2,9,Home,13,162,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,2,10,Away,9,125,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,2,10,Home,6,109,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,2,11,Away,1,165,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,2,11,Home,2,115,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,2,12,Away,4,147,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,2,12,Home,14,157,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,2,13,Away,3,143,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,2,13,Home,10,137,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,3,14,Away,11,103,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,3,14,Home,8,98,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,3,15,Away,7,136,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,3,15,Home,5,170,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,3,16,Away,13,148,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,3,16,Home,9,147,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,3,17,Away,6,160,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,3,17,Home,1,126,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,3,18,Away,2,108,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,3,18,Home,4,83,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,3,19,Away,14,166,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,3,19,Home,3,118,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,3,20,Away,10,153,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,3,20,Home,12,121,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,4,21,Away,3,115,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,4,21,Home,11,121,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,4,22,Away,12,190,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,4,22,Home,7,163,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,4,23,Away,8,125,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,4,23,Home,13,148,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,4,24,Away,5,127,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,4,24,Home,6,105,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,4,25,Away,9,137,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,4,25,Home,2,102,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,4,26,Away,1,111,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,4,26,Home,14,155,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,4,27,Away,4,135,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,4,27,Home,10,152,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,5,28,Away,11,126,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,5,28,Home,4,174,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,5,29,Away,7,123,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,5,29,Home,3,137,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,5,30,Away,13,152,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,5,30,Home,12,176,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,5,31,Away,6,125,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,5,31,Home,8,167,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,5,32,Away,2,118,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,5,32,Home,5,145,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,5,33,Away,14,149,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,5,33,Home,9,155,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,5,34,Away,10,151,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,5,34,Home,1,118,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,6,35,Away,1,98,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,6,35,Home,11,183,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,6,36,Away,4,92,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,6,36,Home,7,167,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,6,37,Away,3,171,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,6,37,Home,13,131,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,6,38,Away,12,130,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,6,38,Home,6,135,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,6,39,Away,8,109,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,6,39,Home,2,139,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,6,40,Away,5,143,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,6,40,Home,14,77,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,6,41,Away,9,135,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,6,41,Home,10,141,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,7,42,Away,11,115,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,7,42,Home,9,147,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,7,43,Away,7,119,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,7,43,Home,1,120,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,7,44,Away,13,198,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,7,44,Home,4,142,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,7,45,Away,6,154,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,7,45,Home,3,153,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,7,46,Away,2,72,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,7,46,Home,12,82,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,7,47,Away,14,101,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,7,47,Home,8,115,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,7,48,Away,10,167,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,7,48,Home,5,153,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,8,49,Away,7,133,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,8,49,Home,11,134,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,8,50,Away,6,159,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,8,50,Home,13,118,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,8,51,Away,14,157,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,8,51,Home,2,159,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,8,52,Away,9,140,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,8,52,Home,5,132,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,8,53,Away,4,116,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,8,53,Home,1,138,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,8,54,Away,12,115,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,8,54,Home,3,167,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,8,55,Away,10,156,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,8,55,Home,8,91,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,9,56,Away,11,139,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,9,56,Home,10,134,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,9,57,Away,13,143,39,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,9,57,Home,7,143,28,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,9,58,Away,2,141,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,9,58,Home,6,207,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,9,59,Away,5,135,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,9,59,Home,8,170,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,9,60,Away,1,83,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,9,60,Home,9,144,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,9,61,Away,3,86,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,9,61,Home,4,135,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,9,62,Away,14,122,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,9,62,Home,12,110,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,10,63,Away,6,104,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,10,63,Home,11,130,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,10,64,Away,14,100,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,10,64,Home,13,128,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,10,65,Away,10,138,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,10,65,Home,2,159,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,10,66,Away,4,116,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,10,66,Home,5,128,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,10,67,Away,12,156,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,10,67,Home,1,142,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,10,68,Away,8,199,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,10,68,Home,3,122,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,10,69,Away,7,152,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,10,69,Home,9,145,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,11,70,Away,11,146,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,11,70,Home,13,99,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,11,71,Away,7,140,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,11,71,Home,6,127,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,11,72,Away,14,146,34,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,11,72,Home,10,146,32,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,11,73,Away,5,108,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,11,73,Home,1,101,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,11,74,Away,9,98,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,11,74,Home,4,111,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,11,75,Away,12,158,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,11,75,Home,8,97,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,11,76,Away,2,157,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,11,76,Home,3,160,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,12,77,Away,14,202,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,12,77,Home,11,153,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,12,78,Away,10,130,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,12,78,Home,13,97,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,12,79,Away,7,138,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,12,79,Home,2,154,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,12,80,Away,12,148,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,12,80,Home,5,181,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,12,81,Away,8,100,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,12,81,Home,1,133,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,12,82,Away,9,165,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,12,82,Home,3,125,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,12,83,Away,6,175,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,12,83,Home,4,147,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,13,84,Away,2,134,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,13,84,Home,11,123,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,13,85,Away,10,97,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,13,85,Home,7,153,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,13,86,Away,6,205,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,13,86,Home,14,106,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,13,87,Away,3,184,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,13,87,Home,5,121,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,13,88,Away,8,102,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,13,88,Home,9,138,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,13,89,Away,4,103,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,13,89,Home,12,117,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,13,90,Away,1,113,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,13,90,Home,13,136,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,14,91,Away,5,110,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,14,91,Home,11,132,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,14,92,Away,9,120,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,14,92,Home,7,87,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,14,93,Away,1,105,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,14,93,Home,13,111,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,14,94,Away,4,91,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,14,94,Home,6,123,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,14,95,Away,3,108,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,14,95,Home,2,120,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,14,96,Away,12,106,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,14,96,Home,14,212,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,14,97,Away,8,96,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,14,97,Home,10,147,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,15,98,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2016,15,98,Home,10,121,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,15,99,Away,6,108,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,15,99,Home,9,115,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,15,100,Away,12,106,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,15,100,Home,11,123,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,15,101,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2016,15,101,Home,13,103,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,15,102,Away,3,135,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,15,102,Home,14,159,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,15,103,Away,2,125,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,15,103,Home,5,162,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,15,104,Away,8,82,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,15,104,Home,7,107,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,15,105,Away,4,101,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,15,105,Home,1,151,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,16,106,Away,9,159,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,16,106,Home,10,158,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,16,107,Away,11,124,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,16,107,Home,13,125,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,16,108,Away,12,152,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,16,108,Home,6,150,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,16,109,Away,5,124,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,16,109,Home,14,178,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,16,110,Away,7,160,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,16,110,Home,3,150,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,16,111,Away,1,111,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,16,111,Home,2,129,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,16,112,Away,4,131,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,16,112,Home,8,80,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2016,17,113,Away,9,118,0,Luke,Luke Rosenbaum,Caught a  Bad Goff,GOFF,Bad Goff,4
+2016,17,113,Home,13,130,0,Billy ,Billy  Chojnacki,Can you feel  the Brees,CHOJ,the Brees,9
+2016,17,114,Away,11,113,0,Brian,Brian Christensen,Gurly Girls,TODD,Girls,11
+2016,17,114,Home,10,148,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,2
+2016,17,115,Away,12,105,0,Levi,Levi Schriefer,Green Eggs And Beckham,GEH,And Beckham,5
+2016,17,115,Home,6,144,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,12
+2016,17,116,Away,7,136,0,weston,weston dyrssen,A-Town Brown,WCDY,Brown,13
+2016,17,116,Home,14,135,0,RoBert,RoBert Riesenberg,Saved by the Bell,RoB,the Bell,10
+2016,17,117,Away,2,123,0,Drew,Drew Dyrssen,The Blair Walsh Project,DRYS,Project,6
+2016,17,117,Home,5,143,0,Benjamin,Benjamin Rosenbaum,Wright Choice Bad Luck,WYMM,Bad Luck,1
+2016,17,118,Away,4,159,0,Brandon,Brandon Rosenbaum,Fantasy Aint My Forte,ROSE,My Forte,8
+2016,17,118,Home,3,103,0,Jared,Jared Campbell,Asiatarget On Ya Back Homeboy,NIKE,Ya Back Homeboy,14
+2016,17,119,Away,1,106,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,7
+2016,17,119,Home,8,69,0,Noah,Noah Schriefer,Super Mario-ta,Mari,Mario-ta,3
+2017,1,0,Away,11,111,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,1,0,Home,5,150,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,1,1,Away,7,124,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,1,1,Home,14,91,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,1,2,Away,3,127,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,1,2,Home,1,125,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,1,3,Away,8,89,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,1,3,Home,4,115,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,1,4,Away,2,148,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,1,4,Home,13,109,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,1,5,Away,9,154,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,1,5,Home,12,62,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,1,6,Away,10,105,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,1,6,Home,6,162,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,2,7,Away,12,86,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,2,7,Home,11,90,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,2,8,Away,8,105,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,2,8,Home,7,156,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,2,9,Away,5,152,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,2,9,Home,13,146,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,2,10,Away,9,126,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,2,10,Home,6,147,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,2,11,Away,1,128,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,2,11,Home,2,132,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,2,12,Away,4,151,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,2,12,Home,14,103,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,2,13,Away,3,111,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,2,13,Home,10,156,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,3,14,Away,11,159,26,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,3,14,Home,8,159,29,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,3,15,Away,7,91,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,3,15,Home,5,107,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,3,16,Away,13,131,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,3,16,Home,9,156,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,3,17,Away,6,120,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,3,17,Home,1,137,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,3,18,Away,2,164,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,3,18,Home,4,65,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,3,19,Away,14,198,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,3,19,Home,3,144,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,3,20,Away,10,166,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,3,20,Home,12,111,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,4,21,Away,3,128,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,4,21,Home,11,111,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,4,22,Away,12,84,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,4,22,Home,7,121,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,4,23,Away,8,127,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,4,23,Home,13,122,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,4,24,Away,5,112,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,4,24,Home,6,138,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,4,25,Away,9,167,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,4,25,Home,2,153,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,4,26,Away,1,140,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,4,26,Home,14,166,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,4,27,Away,4,150,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,4,27,Home,10,141,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,5,28,Away,11,119,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,5,28,Home,4,148,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,5,29,Away,7,139,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,5,29,Home,3,88,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,5,30,Away,13,115,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,5,30,Home,12,116,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,5,31,Away,6,133,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,5,31,Home,8,80,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,5,32,Away,2,152,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,5,32,Home,5,112,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,5,33,Away,14,141,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,5,33,Home,9,145,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,5,34,Away,10,106,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,5,34,Home,1,131,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,6,35,Away,1,165,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,6,35,Home,11,73,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,6,36,Away,4,130,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,6,36,Home,7,149,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,6,37,Away,3,144,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,6,37,Home,13,92,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,6,38,Away,12,110,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,6,38,Home,6,101,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,6,39,Away,8,123,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,6,39,Home,2,102,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,6,40,Away,5,97,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,6,40,Home,14,172,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,6,41,Away,9,143,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,6,41,Home,10,121,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,7,42,Away,11,102,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,7,42,Home,9,136,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,7,43,Away,7,124,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,7,43,Home,1,103,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,7,44,Away,13,108,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,7,44,Home,4,140,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,7,45,Away,6,183,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,7,45,Home,3,115,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,7,46,Away,2,128,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,7,46,Home,12,81,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,7,47,Away,14,152,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,7,47,Home,8,159,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,7,48,Away,10,167,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,7,48,Home,5,120,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,8,49,Away,7,125,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,8,49,Home,11,96,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,8,50,Away,6,141,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,8,50,Home,13,119,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,8,51,Away,14,193,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,8,51,Home,2,115,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,8,52,Away,9,127,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,8,52,Home,5,111,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,8,53,Away,4,149,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,8,53,Home,1,162,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,8,54,Away,12,122,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,8,54,Home,3,85,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,8,55,Away,10,152,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,8,55,Home,8,127,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,9,56,Away,11,124,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,9,56,Home,10,173,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,9,57,Away,13,154,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,9,57,Home,7,90,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,9,58,Away,2,107,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,9,58,Home,6,95,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,9,59,Away,5,89,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,9,59,Home,8,107,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,9,60,Away,1,85,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,9,60,Home,9,121,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,9,61,Away,3,163,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,9,61,Home,4,95,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,9,62,Away,14,180,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,9,62,Home,12,71,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,10,63,Away,6,138,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,10,63,Home,11,132,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,10,64,Away,14,187,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,10,64,Home,13,101,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,10,65,Away,10,126,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,10,65,Home,2,101,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,10,66,Away,4,98,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,10,66,Home,5,97,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,10,67,Away,12,106,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,10,67,Home,1,128,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,10,68,Away,8,135,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,10,68,Home,3,180,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,10,69,Away,7,112,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,10,69,Home,9,143,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,11,70,Away,11,114,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,11,70,Home,13,102,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,11,71,Away,7,154,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,11,71,Home,6,178,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,11,72,Away,14,193,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,11,72,Home,10,187,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,11,73,Away,5,107,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,11,73,Home,1,103,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,11,74,Away,9,101,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,11,74,Home,4,149,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,11,75,Away,12,106,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,11,75,Home,8,126,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,11,76,Away,2,88,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,11,76,Home,3,130,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,12,77,Away,14,167,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,12,77,Home,11,126,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,12,78,Away,10,158,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,12,78,Home,13,100,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,12,79,Away,7,117,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,12,79,Home,2,131,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,12,80,Away,12,89,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,12,80,Home,5,117,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,12,81,Away,8,217,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,12,81,Home,1,110,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,12,82,Away,9,100,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,12,82,Home,3,125,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,12,83,Away,6,163,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,12,83,Home,4,136,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,13,84,Away,2,114,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,13,84,Home,11,75,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,13,85,Away,10,140,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,13,85,Home,7,130,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,13,86,Away,6,130,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,13,86,Home,14,188,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,13,87,Away,3,153,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,13,87,Home,5,114,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,13,88,Away,8,149,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,13,88,Home,9,135,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,13,89,Away,4,141,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,13,89,Home,12,107,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,13,90,Away,1,166,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,13,90,Home,13,113,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,14,91,Away,5,115,45,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,14,91,Home,11,115,46,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,14,92,Away,9,132,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,14,92,Home,7,155,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,14,93,Away,1,141,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,14,93,Home,13,148,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,14,94,Away,4,96,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,14,94,Home,6,136,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,14,95,Away,3,148,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,14,95,Home,2,145,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,14,96,Away,12,108,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,14,96,Home,14,172,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,14,97,Away,8,65,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,14,97,Home,10,140,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,15,98,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017,15,98,Home,14,152,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,15,99,Away,3,157,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,15,99,Home,9,157,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,15,100,Away,7,113,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,15,100,Home,10,120,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,15,101,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017,15,101,Home,6,145,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,15,102,Away,8,88,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,15,102,Home,2,145,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,15,103,Away,1,116,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,15,103,Home,4,117,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,15,104,Away,11,181,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,15,104,Home,5,134,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,15,105,Away,13,126,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,15,105,Home,12,97,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,16,106,Away,9,115,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,16,106,Home,14,140,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,16,107,Away,10,143,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,16,107,Home,6,117,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,16,108,Away,7,86,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,16,108,Home,3,79,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,16,109,Away,4,117,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,16,109,Home,2,137,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,16,110,Away,11,140,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,16,110,Home,8,140,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,16,111,Away,13,143,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,16,111,Home,1,87,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2017,16,112,Away,12,75,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,16,112,Home,5,86,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,17,113,Away,10,98,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,12
+2017,17,113,Home,14,121,0,RoBert,RoBert Riesenberg,DangeRuss Sea-Hawk,RoB,Sea-Hawk,1
+2017,17,114,Away,9,129,0,Luke,Luke Rosenbaum,Make AmariCarr Great Again,MAGA,Great Again,13
+2017,17,114,Home,6,80,0,Tim,Tim Foley,Coby doesn't Fleench,FOLE,Fleench,10
+2017,17,115,Away,7,89,0,weston,weston dyrssen,Fake Drews,WCDY,Drews,5
+2017,17,115,Home,3,135,0,Jared,Jared Campbell,Carlos Better Than These?,NIKE,Than These?,2
+2017,17,116,Away,8,127,0,Noah,Noah Schriefer,Westeros  Game of Jones,SNOW,Game of Jones,6
+2017,17,116,Home,2,120,0,Drew,Drew Dyrssen,Mackaroni and Brees,DRYS,Brees,4
+2017,17,117,Away,13,111,0,Billy ,Billy  Chojnacki,How Do You Say Ajiaijiyaiyajia,CHOJ,Ajiaijiyaiyajia,14
+2017,17,117,Home,4,121,0,Brandon,Brandon Rosenbaum,The Book of Eli Manning,ROSE,Eli Manning,7
+2017,17,118,Away,11,104,0,Brian,Brian Christensen,Cookin With Cook,MN,With Cook,11
+2017,17,118,Home,5,172,0,Benjamin,Benjamin Rosenbaum,These Are Better Santos,TABS,Better Santos,3
+2017,17,119,Away,12,50,0,Levi,Levi Schriefer,#InTrubisky WeTrust,WIN,WeTrust,9
+2017,17,119,Home,1,97,0,Ben,Ben Dull,got a brock in my rari,DULL,in my rari,8
+2018,1,0,Away,3,179.72,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,1,0,Home,8,151.54,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,1,1,Away,9,146.54,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,1,1,Home,5,156.1,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,1,2,Away,11,146.76,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,1,2,Home,12,141.62,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,1,3,Away,10,155.36,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,1,3,Home,4,166.48,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,1,4,Away,2,211.4,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,1,4,Home,14,128.3,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,1,5,Away,7,143.88,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,1,5,Home,6,127.76,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,1,6,Away,1,103.88,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,1,6,Home,13,122.66,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,2,7,Away,9,146.96,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,2,7,Home,3,149.12,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,2,8,Away,8,153.9,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,2,8,Home,11,138.3,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,2,9,Away,5,130.06,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,2,9,Home,10,183.88,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,2,10,Away,12,162.16,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,2,10,Home,2,170.56,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,2,11,Away,4,191.68,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,2,11,Home,7,131.64,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,2,12,Away,14,175.18,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,2,12,Home,1,195.08,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,2,13,Away,6,158.6,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,2,13,Home,13,116.78,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,3,14,Away,3,114.64,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,3,14,Home,11,129.66,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,3,15,Away,10,166.88,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,3,15,Home,9,144.06,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,3,16,Away,2,169.16,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,3,16,Home,8,162.72,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,3,17,Away,7,133.02,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,3,17,Home,5,190.24,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,3,18,Away,1,181.5,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,3,18,Home,12,97.86,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,3,19,Away,13,115.28,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,3,19,Home,4,170.08,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,3,20,Away,6,157.2,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,3,20,Home,14,135.24,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,4,21,Away,10,146.42,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,4,21,Home,3,152.9,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,4,22,Away,11,171.44,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,4,22,Home,2,222.16,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,4,23,Away,9,131.8,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,4,23,Home,7,113,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,4,24,Away,8,196.18,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,4,24,Home,1,188.56,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,4,25,Away,5,99.2,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,4,25,Home,13,162,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,4,26,Away,12,126.08,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,4,26,Home,6,205.16,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,4,27,Away,4,156.72,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,4,27,Home,14,152.96,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,5,28,Away,3,105.14,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,5,28,Home,2,162.2,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,5,29,Away,7,166.94,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,5,29,Home,10,190.2,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,5,30,Away,1,133.6,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,5,30,Home,11,125.42,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,5,31,Away,13,168.92,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,5,31,Home,9,142.34,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,5,32,Away,6,107.74,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,5,32,Home,8,197.78,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,5,33,Away,14,165.52,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,5,33,Home,5,136.8,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,5,34,Away,4,97.38,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,5,34,Home,12,167.52,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,6,35,Away,7,159.62,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,6,35,Home,3,113.82,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,6,36,Away,2,191.34,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,6,36,Home,1,151.2,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,6,37,Away,10,186,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,6,37,Home,13,136.34,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,6,38,Away,11,134.58,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,6,38,Home,6,159.98,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,6,39,Away,9,133.68,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,6,39,Home,14,151.58,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,6,40,Away,8,197.14,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,6,40,Home,4,117.16,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,6,41,Away,5,130.2,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,6,41,Home,12,161.3,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,7,42,Away,3,125.74,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,7,42,Home,1,186.62,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,7,43,Away,13,83.54,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,7,43,Home,7,152.64,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,7,44,Away,6,131.44,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,7,44,Home,2,125.84,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,7,45,Away,14,85.22,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,7,45,Home,10,210.84,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,7,46,Away,4,165.54,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,7,46,Home,11,147.16,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,7,47,Away,12,109.8,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,7,47,Home,9,170.02,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,7,48,Away,5,130.08,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,7,48,Home,8,143.46,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,8,49,Away,13,158.06,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,8,49,Home,3,140.18,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,8,50,Away,1,175.12,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,8,50,Home,6,141.76,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,8,51,Away,7,120.78,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,8,51,Home,14,150.18,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,8,52,Away,2,138.7,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,8,52,Home,4,158.36,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,8,53,Away,10,211.72,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,8,53,Home,12,148.2,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,8,54,Away,11,154.36,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,8,54,Home,5,128.54,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,8,55,Away,9,126.5,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,8,55,Home,8,159.8,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,9,56,Away,3,116.9,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,9,56,Home,6,150.58,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,9,57,Away,14,162.82,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,9,57,Home,13,138.5,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,9,58,Away,4,175.4,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,9,58,Home,1,206.46,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,9,59,Away,12,106.36,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,9,59,Home,7,117.7,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,9,60,Away,5,154.9,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,9,60,Home,2,112.82,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,9,61,Away,8,95.22,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,9,61,Home,10,145.02,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,9,62,Away,9,181.18,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,9,62,Home,11,144.14,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,10,63,Away,14,194.22,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,10,63,Home,3,119.38,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,10,64,Away,6,132.54,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,10,64,Home,4,152.92,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,10,65,Away,13,146.74,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,10,65,Home,12,115.32,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,10,66,Away,1,175.6,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,10,66,Home,5,107.86,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,10,67,Away,7,134.08,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,10,67,Home,8,168.64,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,10,68,Away,2,142,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,10,68,Home,9,215.84,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,10,69,Away,10,173.54,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,10,69,Home,11,114.72,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,11,70,Away,3,150.2,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,11,70,Home,4,201.2,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,11,71,Away,12,158.54,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,11,71,Home,14,129.48,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,11,72,Away,5,126.6,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,11,72,Home,6,148.08,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,11,73,Away,8,148.98,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,11,73,Home,13,71.96,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,11,74,Away,9,91.2,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,11,74,Home,1,176.02,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,11,75,Away,11,111.42,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,11,75,Home,7,123.94,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,11,76,Away,10,127.22,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,11,76,Home,2,156.6,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,12,77,Away,12,128.24,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,12,77,Home,3,128.94,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,12,78,Away,4,155.16,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,12,78,Home,5,131.76,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,12,79,Away,14,147.04,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,12,79,Home,8,175.66,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,12,80,Away,6,137.56,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,12,80,Home,9,205.58,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,12,81,Away,13,104.14,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,12,81,Home,11,178.5,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,12,82,Away,1,147.84,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,12,82,Home,10,122.82,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,12,83,Away,7,158.3,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,12,83,Home,2,179.72,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,13,84,Away,3,139.94,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,13,84,Home,5,89.3,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,13,85,Away,8,184.6,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,13,85,Home,12,81.9,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,13,86,Away,9,156.86,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,13,86,Home,4,122.84,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,13,87,Away,11,108.34,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,13,87,Home,14,145.4,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,13,88,Away,10,218.68,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,13,88,Home,6,128.38,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,13,89,Away,2,124.48,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,13,89,Home,13,111.5,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,13,90,Away,7,111.74,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,13,90,Home,1,175.6,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,14,91,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018,14,91,Home,1,176.66,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,14,92,Away,4,100.32,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,14,92,Home,2,142.94,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,14,93,Away,6,152.98,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,14,93,Home,10,125.26,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,14,94,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018,14,94,Home,8,124.8,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,14,95,Away,14,137.08,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,14,95,Home,9,181.62,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,14,96,Away,3,121.28,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,14,96,Home,7,128.5,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,14,97,Away,11,173.26,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,14,97,Home,13,82.48,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,14,98,Away,12,122.08,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,14,98,Home,5,125.18,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,15,99,Away,2,135.04,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,15,99,Home,1,141.92,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,15,100,Away,6,98.26,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,15,100,Home,8,111.52,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,15,101,Away,4,96.56,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,15,101,Home,10,115.18,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,15,102,Away,7,150.52,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,15,102,Home,9,123.52,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,15,103,Away,11,150.66,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,15,103,Home,14,159.44,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,15,104,Away,5,60.78,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,15,104,Home,3,144.78,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,15,105,Away,12,130.04,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,15,105,Home,13,71.48,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2018,16,106,Away,8,167.7,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,2
+2018,16,106,Home,1,138.86,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,4
+2018,16,107,Away,6,99.6,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,12
+2018,16,107,Home,2,177.14,0,Drew,Drew Dyrssen, Just Reediculious,DRYS,Reediculious,1
+2018,16,108,Away,4,169.96,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,3
+2018,16,108,Home,10,95.28,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,13
+2018,16,109,Away,7,140.2,0,weston,weston dyrssen,Hey  Darnold!,WCDY,Darnold!,9
+2018,16,109,Home,14,184.84,0,RoBert,RoBert Riesenberg,A No-Bell Attempt,RoB,Attempt,14
+2018,16,110,Away,3,105.3,0,Jared,Jared Campbell, MotherFicken Snakes On Plane,NIKE,Snakes On Plane,10
+2018,16,110,Home,9,152.6,0,Luke,Luke Rosenbaum,Ramczyk-en and Brown Royce,LUKE,Brown Royce,11
+2018,16,111,Away,12,173.7,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,7
+2018,16,111,Home,11,132.54,0,Brian,Brian Christensen,Flaccos' Elite,ELE,Elite,6
+2018,16,112,Away,5,156.54,0,Benjamin,Benjamin Rosenbaum,Going To Take A Sanuze,NAP,A Sanuze,5
+2018,16,112,Home,13,133.74,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,8
+2019,1,0,Away,3,178.86,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,1,0,Home,8,129.4,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,1,1,Away,9,173.02,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,1,1,Home,5,165.42,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,1,2,Away,11,141.52,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,1,2,Home,12,147.8,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,1,3,Away,10,210.96,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,1,3,Home,4,146.86,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,1,4,Away,2,143.78,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,1,4,Home,14,171.38,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,1,5,Away,7,179.76,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,1,5,Home,6,94.7,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,1,6,Away,1,100.52,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,1,6,Home,13,155.24,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,2,7,Away,9,128.12,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,2,7,Home,3,141.68,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,2,8,Away,8,104.02,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,2,8,Home,11,167.4,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,2,9,Away,5,114.88,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,2,9,Home,10,156.2,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,2,10,Away,12,149.12,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,2,10,Home,2,123.38,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,2,11,Away,4,147.72,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,2,11,Home,7,151.02,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,2,12,Away,14,130.56,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,2,12,Home,1,174.14,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,2,13,Away,6,111.4,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,2,13,Home,13,169.52,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,3,14,Away,3,125.04,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,3,14,Home,11,201.98,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,3,15,Away,10,128.3,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,3,15,Home,9,159.86,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,3,16,Away,2,181.72,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,3,16,Home,8,124.58,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,3,17,Away,7,162.28,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,3,17,Home,5,153.56,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,3,18,Away,1,155.02,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,3,18,Home,12,161.22,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,3,19,Away,13,176.32,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,3,19,Home,4,171.98,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,3,20,Away,6,102.4,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,3,20,Home,14,165.7,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,4,21,Away,10,137.3,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,4,21,Home,3,154.5,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,4,22,Away,11,144.56,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,4,22,Home,2,139.84,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,4,23,Away,9,141.04,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,4,23,Home,7,201.78,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,4,24,Away,8,139.16,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,4,24,Home,1,105.82,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,4,25,Away,5,159.64,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,4,25,Home,13,184.5,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,4,26,Away,12,119.2,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,4,26,Home,6,75.34,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,4,27,Away,4,154.4,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,4,27,Home,14,168.48,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,5,28,Away,3,195.54,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,5,28,Home,2,152.38,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,5,29,Away,7,120.08,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,5,29,Home,10,139.68,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,5,30,Away,1,172.1,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,5,30,Home,11,147.06,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,5,31,Away,13,151.16,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,5,31,Home,9,146.72,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,5,32,Away,6,76.08,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,5,32,Home,8,130.26,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,5,33,Away,14,168.14,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,5,33,Home,5,108.06,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,5,34,Away,4,164.36,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,5,34,Home,12,225.2,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,6,35,Away,7,125.54,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,6,35,Home,3,87.84,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,6,36,Away,2,170.5,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,6,36,Home,1,126.54,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,6,37,Away,10,131.9,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,6,37,Home,13,166.4,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,6,38,Away,11,116,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,6,38,Home,6,65.3,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,6,39,Away,9,144.3,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,6,39,Home,14,190.04,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,6,40,Away,8,105.08,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,6,40,Home,4,142.14,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,6,41,Away,5,149.52,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,6,41,Home,12,118.28,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,7,42,Away,3,184.14,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,7,42,Home,1,112.44,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,7,43,Away,13,153.96,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,7,43,Home,7,184.76,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,7,44,Away,6,71.84,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,7,44,Home,2,94.46,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,7,45,Away,14,104.78,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,7,45,Home,10,106,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,7,46,Away,4,137.64,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,7,46,Home,11,135.28,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,7,47,Away,12,128.08,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,7,47,Home,9,153.48,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,7,48,Away,5,149.76,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,7,48,Home,8,132.12,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,8,49,Away,13,162.52,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,8,49,Home,3,127.92,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,8,50,Away,1,135.66,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,8,50,Home,6,94.66,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,8,51,Away,7,144.68,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,8,51,Home,14,164.26,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,8,52,Away,2,130.44,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,8,52,Home,4,157.58,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,8,53,Away,10,152.16,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,8,53,Home,12,140.04,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,8,54,Away,11,179.9,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,8,54,Home,5,116.02,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,8,55,Away,9,193.32,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,8,55,Home,8,163.78,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,9,56,Away,3,150.92,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,9,56,Home,6,91.6,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,9,57,Away,14,143.5,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,9,57,Home,13,132.12,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,9,58,Away,4,119.2,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,9,58,Home,1,127.98,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,9,59,Away,12,131.98,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,9,59,Home,7,115.28,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,9,60,Away,5,132.58,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,9,60,Home,2,155.04,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,9,61,Away,8,160.56,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,9,61,Home,10,165.86,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,9,62,Away,9,141.84,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,9,62,Home,11,185.62,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,10,63,Away,14,108.58,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,10,63,Home,3,187.52,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,10,64,Away,6,83.7,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,10,64,Home,4,136.12,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,10,65,Away,13,155.76,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,10,65,Home,12,152.98,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,10,66,Away,1,124.94,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,10,66,Home,5,155.4,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,10,67,Away,7,169.98,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,10,67,Home,8,116.58,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,10,68,Away,2,153.58,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,10,68,Home,9,140.1,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,10,69,Away,10,126.42,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,10,69,Home,11,141.2,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,11,70,Away,3,138.76,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,11,70,Home,4,129.48,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,11,71,Away,12,141.22,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,11,71,Home,14,95.8,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,11,72,Away,5,127.76,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,11,72,Home,6,73.6,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,11,73,Away,8,133.86,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,11,73,Home,13,171.06,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,11,74,Away,9,118.82,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,11,74,Home,1,110.04,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,11,75,Away,11,122.2,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,11,75,Home,7,170.2,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,11,76,Away,10,179,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,11,76,Home,2,136.16,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,12,77,Away,12,135.74,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,12,77,Home,3,115.74,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,12,78,Away,4,126.58,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,12,78,Home,5,127.6,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,12,79,Away,14,124.66,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,12,79,Home,8,119.72,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,12,80,Away,6,84.7,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,12,80,Home,9,153.4,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,12,81,Away,13,171.48,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,12,81,Home,11,108.22,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,12,82,Away,1,84.78,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,12,82,Home,10,116.14,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,12,83,Away,7,164.22,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,12,83,Home,2,139.3,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,13,84,Away,3,170.98,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,13,84,Home,5,156.48,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,13,85,Away,8,124.16,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,13,85,Home,12,147.18,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,13,86,Away,9,91.2,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,13,86,Home,4,173.7,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,13,87,Away,11,176.02,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,13,87,Home,14,127.9,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,13,88,Away,10,101.24,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,13,88,Home,6,95.72,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,13,89,Away,2,86.14,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,13,89,Home,13,151.98,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,13,90,Away,7,154.32,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,13,90,Home,1,104,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,14,91,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019,14,91,Home,13,139.62,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,14,92,Away,10,149.06,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,14,92,Home,12,191.32,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,14,93,Away,11,130.56,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,14,93,Home,3,183.8,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,14,94,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019,14,94,Home,7,173.24,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,14,95,Away,9,116.46,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,14,95,Home,14,174.7,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,14,96,Away,5,142.76,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,14,96,Home,4,136.1,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,14,97,Away,1,128.2,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,14,97,Home,2,176.3,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,14,98,Away,6,78.28,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,14,98,Home,8,127.18,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,15,99,Away,12,125.98,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,15,99,Home,13,121.24,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,15,100,Away,3,174.14,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,15,100,Home,7,174.28,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,15,101,Away,11,169.5,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,15,101,Home,10,168.56,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,15,102,Away,5,138.1,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,15,102,Home,14,138.02,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,15,103,Away,2,197.88,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,15,103,Home,9,133.68,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,15,104,Away,8,180.92,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,15,104,Home,4,163.04,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2019,15,105,Away,6,72.64,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,15,105,Home,1,134.84,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,16,106,Away,12,119.78,0,Levi,Levi Schriefer,ONE CHIEFS HILL,OTH,CHIEFS HILL,8
+2019,16,106,Home,7,160.28,0,weston,weston dyrssen,"To the Window, To the Waller",WCDY,To the Waller,3
+2019,16,107,Away,3,139.38,0,Jared,Jared Campbell,No Tengo Pineiro,NIKE,Pineiro,4
+2019,16,107,Home,13,124.9,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,5
+2019,16,108,Away,11,138.44,0,Brian,Brian Christensen,Flaccaroni and Cheese,FLAC,and Cheese,6
+2019,16,108,Home,10,144.58,0,Phillip,Phillip Harrison,Philly  LANGuage ,PHL,LANGuage ,10
+2019,16,109,Away,2,124.32,0,Drew,Drew Dyrssen,Sexual  Thielen,DRYS,Thielen,12
+2019,16,109,Home,5,89.8,0,Benjamin,Benjamin Rosenbaum,I'll Be Bahktiari,BAHK,Bahktiari,7
+2019,16,110,Away,8,168.26,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,14
+2019,16,110,Home,14,118.62,0,RoBert,RoBert Riesenberg,Hide and Zeke,RoB,Zeke,2
+2019,16,111,Away,1,167.78,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,13
+2019,16,111,Home,9,129.04,0,Luke,Luke Rosenbaum,Get Your Pass Rashan,LUKE,Rashan,1
+2019,16,112,Away,6,122.94,0,Tim,Tim Foley,E-Z-E kiel,TF,kiel,11
+2019,16,112,Home,4,162.1,0,Brandon,Brandon Rosenbaum,Kerryon My Wayward Son,ROSE,My Wayward Son,9
+2020,1,1,Away,5,207.86,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,1,1,Home,7,172.42,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,1,2,Away,8,158.08,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,1,2,Home,2,149.9,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,1,3,Away,4,162.7,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,1,3,Home,1,105.32,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,1,4,Away,13,178.38,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,1,4,Home,12,110.3,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,1,5,Away,14,139.94,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,1,5,Home,9,163.78,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,1,6,Away,10,132,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,1,6,Home,3,202.58,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,2,7,Away,8,156.68,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,2,7,Home,5,179.34,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,2,8,Away,7,134.16,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,2,8,Home,4,149.42,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,2,9,Away,2,130.48,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,2,9,Home,13,203,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,2,10,Away,1,217.92,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,2,10,Home,14,155.66,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,2,11,Away,12,111.04,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,2,11,Home,10,164.96,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,2,12,Away,9,206.26,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,2,12,Home,3,201.22,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,3,13,Away,5,173.02,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,3,13,Home,4,194.9,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,3,14,Away,13,166.18,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,3,14,Home,8,176.26,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,3,15,Away,14,198.82,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,3,15,Home,7,109.9,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,3,16,Away,10,143.74,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,3,16,Home,2,140.56,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,3,17,Away,3,166.96,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,3,17,Home,1,207.38,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,3,18,Away,9,117.3,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,3,18,Home,12,102.16,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,4,19,Away,13,169.3,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,4,19,Home,5,187.6,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,4,20,Away,4,155.64,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,4,20,Home,14,165.38,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,4,21,Away,8,129.68,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,4,21,Home,10,98.1,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,4,22,Away,7,139.92,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,4,22,Home,3,185.42,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,4,23,Away,2,217.34,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,4,23,Home,9,160.1,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,4,24,Away,1,154.74,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,4,24,Home,12,120.2,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,5,25,Away,5,158.5,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,5,25,Home,14,146.22,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,5,26,Away,10,175.08,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,5,26,Home,13,176.28,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,5,27,Away,3,166.48,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,5,27,Home,4,157.96,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,5,28,Away,9,149.76,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,5,28,Home,8,137.08,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,5,29,Away,12,121.54,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,5,29,Home,7,123.82,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,5,30,Away,1,190.66,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,5,30,Home,2,148.26,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,6,31,Away,10,174.44,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,6,31,Home,5,145.54,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,6,32,Away,14,141.04,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,6,32,Home,3,159.82,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,6,33,Away,13,162.78,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,6,33,Home,9,146.44,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,6,34,Away,4,118.42,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,6,34,Home,12,123.56,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,6,35,Away,8,142.7,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,6,35,Home,1,107.28,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,6,36,Away,7,162.04,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,6,36,Home,2,186.28,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,7,37,Away,5,217.22,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,7,37,Home,3,126.3,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,7,38,Away,9,147.56,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,7,38,Home,10,169.72,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,7,39,Away,12,169.16,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,7,39,Home,14,163.9,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,7,40,Away,1,173.94,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,7,40,Home,13,144.44,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,7,41,Away,2,149.66,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,7,41,Home,4,154.1,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,7,42,Away,7,151.06,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,7,42,Home,8,183.2,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,8,43,Away,9,101.84,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,8,43,Home,5,177.84,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,8,44,Away,3,120.4,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,8,44,Home,12,166.54,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,8,45,Away,10,103.42,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,8,45,Home,1,126.12,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,8,46,Away,14,87.86,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,8,46,Home,2,98.96,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,8,47,Away,13,192.52,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,8,47,Home,7,149.4,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,8,48,Away,4,158.34,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,8,48,Home,8,163.04,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,9,49,Away,5,209.22,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,9,49,Home,12,181.06,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,9,50,Away,1,124.7,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,9,50,Home,9,131.76,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,9,51,Away,2,79.84,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,9,51,Home,3,149.26,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,9,52,Away,7,125.18,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,9,52,Home,10,78.74,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,9,53,Away,8,157.46,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,9,53,Home,14,188.34,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,9,54,Away,4,142.42,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,9,54,Home,13,175.26,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,10,55,Away,1,161.64,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,10,55,Home,5,134.5,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,10,56,Away,12,148.86,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,10,56,Home,2,192.34,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,10,57,Away,9,128.68,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,10,57,Home,7,127.28,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,10,58,Away,3,182.16,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,10,58,Home,8,144.14,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,10,59,Away,10,101,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,10,59,Home,4,147.92,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,10,60,Away,14,119.84,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,10,60,Home,13,130.04,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,11,61,Away,5,179,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,11,61,Home,2,163.3,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,11,62,Away,7,133.46,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,11,62,Home,1,145.26,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,11,63,Away,8,166.56,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,11,63,Home,12,141.14,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,11,64,Away,4,174.08,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,11,64,Home,9,139.28,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,11,65,Away,13,160.38,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,11,65,Home,3,89.48,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,11,66,Away,14,196.42,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,11,66,Home,10,151.84,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,12,67,Away,7,128.78,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,12,67,Home,5,211.14,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,12,68,Away,2,152.82,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,12,68,Home,8,141.82,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,12,69,Away,1,121.22,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,12,69,Home,4,223.18,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,12,70,Away,12,174.86,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,12,70,Home,13,126.16,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,12,71,Away,9,168.06,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,12,71,Home,14,145.1,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,12,72,Away,3,122.38,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,12,72,Home,10,138.32,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,13,73,Away,5,175.62,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,13,73,Home,8,131.52,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,13,74,Away,4,148.72,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,13,74,Home,7,180.74,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,13,75,Away,13,146.68,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,13,75,Home,2,119.58,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,13,76,Away,14,162.5,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,13,76,Home,1,152.12,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,13,77,Away,10,114.64,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,13,77,Home,12,134.7,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,13,78,Away,3,171.02,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,13,78,Home,9,157.7,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,14,79,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020,14,79,Home,5,208.06,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,14,80,Away,3,154.98,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,14,80,Home,4,142.72,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,14,81,Away,8,165.68,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,14,81,Home,1,202.76,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,14,82,Away,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2020,14,82,Home,13,136.5,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,14,83,Away,14,119.7,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,14,83,Home,9,107.04,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,14,84,Away,12,186.62,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,14,84,Home,2,125.18,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,14,85,Away,7,176.3,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,14,85,Home,10,132.36,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,15,86,Away,3,180.78,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,15,86,Home,5,135.46,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,15,87,Away,1,160.34,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,15,87,Home,13,158.1,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,15,88,Away,8,130.8,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,15,88,Home,4,170.8,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,15,89,Away,12,152.54,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,15,89,Home,14,152.6,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,15,90,Away,7,150.9,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,15,90,Home,9,173.44,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,15,91,Away,10,166.52,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,15,91,Home,2,131.78,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5
+2020,16,92,Away,3,210.62,0,Jared,Jared Campbell,YoungHoes in Area Coates,NIKE,Area Coates,10
+2020,16,92,Home,1,171.2,0,Ben,Ben Dull,sorry forgot my kerryon ,DULL,kerryon ,6
+2020,16,93,Away,13,157.36,0,Billy ,Billy  Chojnacki,Mr. Broken Ankles,CHOJ,Ankles,9
+2020,16,93,Home,5,182.02,0,Benjamin,Benjamin Rosenbaum,Shaquem Booty,BUTT,Booty,4
+2020,16,94,Away,8,171.2,0,Noah,Noah Schriefer,Gnarls Barkey,C-LO,Barkey,7
+2020,16,94,Home,4,159.16,0,Brandon ,Brandon  Rosenbaum,Fresh Prince of Helaire,WILL,Helaire,3
+2020,16,95,Away,14,123.72,0,RoBert,RoBert Riesenberg,Christian Mingle,RoB,Mingle,1
+2020,16,95,Home,9,141.6,0,Luke,Luke Rosenbaum,A Lil Skill and a Lotta Lutz,LUKE,a Lotta Lutz,2
+2020,16,96,Away,10,114.56,0,Phillip,Phillip Harrison,OBJ's Timbs He Had On The Boat,PHL,Had On The Boat,8
+2020,16,96,Home,12,142.18,0,Levi,Levi Schriefer,Last Place On Lock?,LAST,On Lock?,11
+2020,16,97,Away,7,170.5,0,weston,weston dyrssen,The Fantasy Football Team,WCDY,Football Team,12
+2020,16,97,Home,2,188.72,0,Drew,Drew Dyrssen,Cornerstone  JV football,DRYS,JV football,5

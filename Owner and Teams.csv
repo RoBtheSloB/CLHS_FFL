@@ -1,0 +1,69 @@
+seasonId,FullName,displayName,abbrev,TeamName,TeamId,location,nickname,primaryOwner,playoffSeed,firstName,lastName,PickNumber,rankCalculatedFinal,transactionCounter.acquisitions,transactionCounter.trades,Championship,settings.scheduleSettings.playoffTeamCount,settings.scheduleSettings.matchupPeriodCount,PlayoffAppearance
+2016,Ben Dull,ben.besports,DULL,got a brock in my rari,1,got a brock,in my rari,{60AB0C80-50A7-417C-90B2-F35F7362B50F},13,Ben,Dull,7,13,30,2,0,6,14,0
+2016,Drew Dyrssen,double_dee333,DRYS,The Blair Walsh Project,2,The Blair Walsh,Project,{4F16BDD1-42ED-4BEA-B15D-F6BE35E177F4},10,Drew,Dyrssen,6,10,50,5,0,6,14,0
+2016,Jared Campbell,Deerhunter67,NIKE,Asiatarget On Ya Back Homeboy,3,Asiatarget On,Ya Back Homeboy,{660BE104-98D0-4136-8BBA-7B33EE0ACEA2},8,Jared,Campbell,14,12,18,0,0,6,14,0
+2016,Brandon Rosenbaum,biofert69,ROSE,Fantasy Aint My Forte,4,Fantasy Aint,My Forte,{6B529D97-DCD1-462F-9A17-510227F54E96},14,Brandon,Rosenbaum,8,11,14,1,0,6,14,0
+2016,Benjamin Rosenbaum,rosenbbs,WYMM,Wright Choice Bad Luck,5,Wright Choice,Bad Luck,{9A583314-E140-4472-85E4-2A9C20EA0B79},9,Benjamin,Rosenbaum,1,9,6,1,0,6,14,0
+2016,Tim Foley,Tim-Foley,FOLE,Coby doesn't Fleench,6,Coby doesn't,Fleench,{F7BD3F42-F712-4BA7-88D3-43F6DDE07BB8},5,Tim,Foley,12,5,4,0,0,6,14,1
+2016,weston dyrssen,wdyah_,WCDY,A-Town Brown,7,A-Town,Brown,{09F60B7E-5E23-4818-A73C-F136044C9AB1},11,weston,dyrssen,13,7,24,2,0,6,14,0
+2016,Noah Schriefer,sundiego1551,Mari,Super Mario-ta,8,Super,Mario-ta,{E381C70C-86A4-4123-BE4E-DDA1FEB440B1},12,Noah,Schriefer,3,14,7,1,0,6,14,0
+2016,Luke Rosenbaum,rosenrocket,GOFF,Caught a  Bad Goff,9,Caught a ,Bad Goff,{3A8D1CDB-1252-4016-892F-92089465AE62},4,Luke,Rosenbaum,4,2,15,2,0,6,14,1
+2016,Phillip Harrison,TheLangBang,PHL,Philly  LANGuage ,10,Philly ,LANGuage ,{99E2FDF9-856B-4F6B-A2FD-F9856BFF6B09},1,Phillip,Harrison,2,3,6,0,0,6,14,1
+2016,Brian Christensen,buckeyescolts2,TODD,Gurly Girls,11,Gurly,Girls,{5F10C52B-D9D4-49D4-98F8-601BFAE4FA78},3,Brian,Christensen,11,4,28,3,0,6,14,1
+2016,Levi Schriefer,richter8558,GEH,Green Eggs And Beckham,12,Green Eggs,And Beckham,{B98BD509-19A0-48F0-9161-B1DB6F5D45D3},6,Levi,Schriefer,5,6,5,0,0,6,14,1
+2016,Billy  Chojnacki,broncobilly2985,CHOJ,Can you feel  the Brees,13,Can you feel ,the Brees,{05D89061-BAE3-4C19-BCB0-E7EC7E105866},2,Billy ,Chojnacki,9,1,9,2,1,6,14,1
+2016,RoBert Riesenberg,riesen1741144,RoB,Saved by the Bell,14,Saved by,the Bell,{801FFF02-FE92-4A72-8652-1DB1F09963CC},7,RoBert,Riesenberg,10,8,81,5,0,6,14,0
+2017,Ben Dull,ben.besports,DULL,got a brock in my rari,1,got a brock,in my rari,{60AB0C80-50A7-417C-90B2-F35F7362B50F},10,Ben,Dull,8,13,24,1,0,6,14,0
+2017,Drew Dyrssen,double_dee333,DRYS,Mackaroni and Brees,2,Mackaroni and,Brees,{4F16BDD1-42ED-4BEA-B15D-F6BE35E177F4},7,Drew,Dyrssen,4,8,45,0,0,6,14,0
+2017,Jared Campbell,Deerhunter67,NIKE,Carlos Better Than These?,3,Carlos Better,Than These?,{660BE104-98D0-4136-8BBA-7B33EE0ACEA2},5,Jared,Campbell,2,5,35,3,0,6,14,1
+2017,Brandon Rosenbaum,biofert69,ROSE,The Book of Eli Manning,4,The Book of,Eli Manning,{6B529D97-DCD1-462F-9A17-510227F54E96},9,Brandon,Rosenbaum,7,9,20,1,0,6,14,0
+2017,Benjamin Rosenbaum,rosenbbs,TABS,These Are Better Santos,5,These Are,Better Santos,{9A583314-E140-4472-85E4-2A9C20EA0B79},11,Benjamin,Rosenbaum,3,11,13,0,0,6,14,0
+2017,Tim Foley,Tim-Foley,FOLE,Coby doesn't Fleench,6,Coby doesn't,Fleench,{F7BD3F42-F712-4BA7-88D3-43F6DDE07BB8},2,Tim,Foley,10,4,1,1,0,6,14,1
+2017,weston dyrssen,wdyah_,WCDY,Fake Drews,7,Fake,Drews,{09F60B7E-5E23-4818-A73C-F136044C9AB1},6,weston,dyrssen,5,6,23,2,0,6,14,1
+2017,Noah Schriefer,sundiego1551,SNOW,Westeros  Game of Jones,8,Westeros ,Game of Jones,{E381C70C-86A4-4123-BE4E-DDA1FEB440B1},8,Noah,Schriefer,6,7,23,2,0,6,14,0
+2017,Luke Rosenbaum,rosenrocket,MAGA,Make AmariCarr Great Again,9,Make AmariCarr,Great Again,{3A8D1CDB-1252-4016-892F-92089465AE62},4,Luke,Rosenbaum,13,3,11,0,0,6,14,1
+2017,Phillip Harrison,TheLangBang,PHL,Philly  LANGuage ,10,Philly ,LANGuage ,{99E2FDF9-856B-4F6B-A2FD-F9856BFF6B09},3,Phillip,Harrison,12,2,12,1,0,6,14,1
+2017,Brian Christensen,buckeyescolts2,MN,Cookin With Cook,11,Cookin,With Cook,{5F10C52B-D9D4-49D4-98F8-601BFAE4FA78},12,Brian,Christensen,11,12,34,0,0,6,14,0
+2017,Levi Schriefer,richter8558,WIN,#InTrubisky WeTrust,12,#InTrubisky,WeTrust,{B98BD509-19A0-48F0-9161-B1DB6F5D45D3},13,Levi,Schriefer,9,14,6,2,0,6,14,0
+2017,Billy  Chojnacki,broncobilly2985,CHOJ,How Do You Say Ajiaijiyaiyajia,13,How Do You Say,Ajiaijiyaiyajia,{05D89061-BAE3-4C19-BCB0-E7EC7E105866},14,Billy ,Chojnacki,14,10,3,2,0,6,14,0
+2017,RoBert Riesenberg,riesen1741144,RoB,DangeRuss Sea-Hawk,14,DangeRuss,Sea-Hawk,{801FFF02-FE92-4A72-8652-1DB1F09963CC},1,RoBert,Riesenberg,1,1,59,5,1,6,14,1
+2018,Ben Dull,ben.besports,DULL,sorry forgot my kerryon ,1,sorry forgot my,kerryon ,{60AB0C80-50A7-417C-90B2-F35F7362B50F},1,Ben,Dull,4,2,27,3,0,6,13,1
+2018,Drew Dyrssen,double_dee333,DRYS, Just Reediculious,2, Just,Reediculious,{4F16BDD1-42ED-4BEA-B15D-F6BE35E177F4},4,Drew,Dyrssen,1,3,38,2,0,6,13,1
+2018,Jared Campbell,Deerhunter67,NIKE, MotherFicken Snakes On Plane,3, MotherFicken,Snakes On Plane,{660BE104-98D0-4136-8BBA-7B33EE0ACEA2},10,Jared,Campbell,10,10,27,2,0,6,13,0
+2018,Brandon Rosenbaum,biofert69,ROSE,Kerryon My Wayward Son,4,Kerryon,My Wayward Son,{6B529D97-DCD1-462F-9A17-510227F54E96},5,Brandon,Rosenbaum,3,5,20,1,0,6,13,1
+2018,Benjamin Rosenbaum,rosenbbs,NAP,Going To Take A Sanuze,5,Going To Take,A Sanuze,{9A583314-E140-4472-85E4-2A9C20EA0B79},13,Benjamin,Rosenbaum,5,13,8,0,0,6,13,0
+2018,Tim Foley,Tim-Foley,TF,E-Z-E kiel,6,E-Z-E,kiel,{F7BD3F42-F712-4BA7-88D3-43F6DDE07BB8},6,Tim,Foley,12,4,1,0,0,6,13,1
+2018,weston dyrssen,wdyah_,WCDY,Hey  Darnold!,7,Hey ,Darnold!,{09F60B7E-5E23-4818-A73C-F136044C9AB1},9,weston,dyrssen,9,8,24,0,0,6,13,0
+2018,Noah Schriefer,sundiego1551,C-LO,Gnarls Barkey,8,Gnarls,Barkey,{E381C70C-86A4-4123-BE4E-DDA1FEB440B1},2,Noah,Schriefer,2,1,18,1,1,6,13,1
+2018,Luke Rosenbaum,rosenrocket,LUKE,Ramczyk-en and Brown Royce,9,Ramczyk-en and,Brown Royce,{3A8D1CDB-1252-4016-892F-92089465AE62},7,Luke,Rosenbaum,11,9,18,2,0,6,13,0
+2018,Phillip Harrison,TheLangBang,PHL,Philly  LANGuage ,10,Philly ,LANGuage ,{99E2FDF9-856B-4F6B-A2FD-F9856BFF6B09},3,Phillip,Harrison,13,6,11,1,0,6,13,1
+2018,Brian Christensen,buckeyescolts2,ELE,Flaccos' Elite,11,Flaccos',Elite,{5F10C52B-D9D4-49D4-98F8-601BFAE4FA78},12,Brian,Christensen,6,12,11,2,0,6,13,0
+2018,Levi Schriefer,richter8558,OTH,ONE CHIEFS HILL,12,ONE,CHIEFS HILL,{B98BD509-19A0-48F0-9161-B1DB6F5D45D3},14,Levi,Schriefer,7,11,3,2,0,6,13,0
+2018,Billy  Chojnacki,broncobilly2985,CHOJ,Mr. Broken Ankles,13,Mr. Broken,Ankles,{05D89061-BAE3-4C19-BCB0-E7EC7E105866},11,Billy ,Chojnacki,8,14,5,3,0,6,13,0
+2018,RoBert Riesenberg,riesen1741144,RoB,A No-Bell Attempt,14,A No-Bell,Attempt,{801FFF02-FE92-4A72-8652-1DB1F09963CC},8,RoBert,Riesenberg,14,7,67,5,0,6,13,0
+2019,Ben Dull,ben.besports,DULL,sorry forgot my kerryon ,1,sorry forgot my,kerryon ,{60AB0C80-50A7-417C-90B2-F35F7362B50F},12,Ben,Dull,13,11,24,1,0,6,13,0
+2019,Drew Dyrssen,double_dee333,DRYS,Sexual  Thielen,2,Sexual ,Thielen,{4F16BDD1-42ED-4BEA-B15D-F6BE35E177F4},11,Drew,Dyrssen,12,7,66,1,0,6,13,0
+2019,Jared Campbell,Deerhunter67,NIKE,No Tengo Pineiro,3,No Tengo,Pineiro,{660BE104-98D0-4136-8BBA-7B33EE0ACEA2},3,Jared,Campbell,4,3,22,0,0,6,13,1
+2019,Brandon Rosenbaum,biofert69,ROSE,Kerryon My Wayward Son,4,Kerryon,My Wayward Son,{6B529D97-DCD1-462F-9A17-510227F54E96},9,Brandon,Rosenbaum,9,13,19,0,0,6,13,0
+2019,Benjamin Rosenbaum,rosenbbs,BAHK,I'll Be Bahktiari,5,I'll Be,Bahktiari,{9A583314-E140-4472-85E4-2A9C20EA0B79},10,Benjamin,Rosenbaum,7,8,5,0,0,6,13,0
+2019,Tim Foley,Tim-Foley,TF,E-Z-E kiel,6,E-Z-E,kiel,{F7BD3F42-F712-4BA7-88D3-43F6DDE07BB8},14,Tim,Foley,11,14,0,1,0,6,13,0
+2019,weston dyrssen,wdyah_,WCDY,"To the Window, To the Waller",7,"To the Window,",To the Waller,{09F60B7E-5E23-4818-A73C-F136044C9AB1},2,weston,dyrssen,3,1,53,1,1,6,13,1
+2019,Noah Schriefer,sundiego1551,C-LO,Gnarls Barkey,8,Gnarls,Barkey,{E381C70C-86A4-4123-BE4E-DDA1FEB440B1},13,Noah,Schriefer,14,9,27,1,0,6,13,0
+2019,Luke Rosenbaum,rosenrocket,LUKE,Get Your Pass Rashan,9,Get Your Pass,Rashan,{3A8D1CDB-1252-4016-892F-92089465AE62},8,Luke,Rosenbaum,1,12,13,0,0,6,13,0
+2019,Phillip Harrison,TheLangBang,PHL,Philly  LANGuage ,10,Philly ,LANGuage ,{99E2FDF9-856B-4F6B-A2FD-F9856BFF6B09},5,Phillip,Harrison,10,5,10,0,0,6,13,1
+2019,Brian Christensen,buckeyescolts2,FLAC,Flaccaroni and Cheese,11,Flaccaroni,and Cheese,{5F10C52B-D9D4-49D4-98F8-601BFAE4FA78},6,Brian,Christensen,6,6,17,1,0,6,13,1
+2019,Levi Schriefer,richter8558,OTH,ONE CHIEFS HILL,12,ONE,CHIEFS HILL,{B98BD509-19A0-48F0-9161-B1DB6F5D45D3},4,Levi,Schriefer,8,2,17,0,0,6,13,1
+2019,Billy  Chojnacki,broncobilly2985,CHOJ,Mr. Broken Ankles,13,Mr. Broken,Ankles,{05D89061-BAE3-4C19-BCB0-E7EC7E105866},1,Billy ,Chojnacki,5,4,15,0,0,6,13,1
+2019,RoBert Riesenberg,riesen1741144,RoB,Hide and Zeke,14,Hide and,Zeke,{801FFF02-FE92-4A72-8652-1DB1F09963CC},7,RoBert,Riesenberg,2,10,45,2,0,6,13,0
+2020,Ben Dull,ben.besports,DULL,sorry forgot my kerryon ,1,sorry forgot my,kerryon ,{60AB0C80-50A7-417C-90B2-F35F7362B50F},3,Ben,Dull,6,2,23,2,0,6,13,1
+2020,Drew Dyrssen,Drew Dyrssen,DRYS,Cornerstone  JV football,2,Cornerstone ,JV football,{4F16BDD1-42ED-4BEA-B15D-F6BE35E177F4},9,Drew,Dyrssen,5,11,65,6,0,6,13,0
+2020,Jared Campbell,Deerhunter67,NIKE,YoungHoes in Area Coates,3,YoungHoes in,Area Coates,{660BE104-98D0-4136-8BBA-7B33EE0ACEA2},5,Jared,Campbell,10,1,29,1,1,6,13,1
+2020,Brandon  Rosenbaum,biofert69,WILL,Fresh Prince of Helaire,4,Fresh Prince of,Helaire,{6B529D97-DCD1-462F-9A17-510227F54E96},4,Brandon ,Rosenbaum,3,6,28,3,0,6,13,1
+2020,Benjamin Rosenbaum,rosenbbs,BUTT,Shaquem Booty,5,Shaquem,Booty,{9A583314-E140-4472-85E4-2A9C20EA0B79},1,Benjamin,Rosenbaum,4,3,16,0,0,6,13,1
+2020,weston dyrssen,wdyah_,WCDY,The Fantasy Football Team,7,The Fantasy,Football Team,{09F60B7E-5E23-4818-A73C-F136044C9AB1},12,weston,dyrssen,12,12,34,4,0,6,13,0
+2020,Noah Schriefer,sundiego1551,C-LO,Gnarls Barkey,8,Gnarls,Barkey,{E381C70C-86A4-4123-BE4E-DDA1FEB440B1},6,Noah,Schriefer,7,5,34,1,0,6,13,1
+2020,Luke Rosenbaum,rosenrocket,LUKE,A Lil Skill and a Lotta Lutz,9,A Lil Skill and,a Lotta Lutz,{3A8D1CDB-1252-4016-892F-92089465AE62},7,Luke,Rosenbaum,2,7,14,1,0,6,13,0
+2020,Phillip Harrison,TheLangBang,PHL,OBJ's Timbs He Had On The Boat,10,OBJ's Timbs He,Had On The Boat,{99E2FDF9-856B-4F6B-A2FD-F9856BFF6B09},11,Phillip,Harrison,8,10,24,1,0,6,13,0
+2020,Levi Schriefer,richter8558,LAST,Last Place On Lock?,12,Last Place,On Lock?,{B98BD509-19A0-48F0-9161-B1DB6F5D45D3},10,Levi,Schriefer,11,9,13,1,0,6,13,0
+2020,Billy  Chojnacki,broncobilly2985,CHOJ,Mr. Broken Ankles,13,Mr. Broken,Ankles,{05D89061-BAE3-4C19-BCB0-E7EC7E105866},2,Billy ,Chojnacki,9,4,6,0,0,6,13,1
+2020,RoBert Riesenberg,riesen1741144,RoB,Christian Mingle,14,Christian,Mingle,{801FFF02-FE92-4A72-8652-1DB1F09963CC},8,RoBert,Riesenberg,1,8,50,4,0,6,13,0

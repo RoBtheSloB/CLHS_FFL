@@ -96,12 +96,47 @@ TransactionData <- map(RawTeamList
   bind_rows() %>% 
   mutate(Championship = if_else(rankCalculatedFinal == 1 ,1 ,0))
 
+OwnerTeamData <- TeamNameData %>%
+  left_join(OwnerNameData ,by = c("seasonId" ,"primaryOwner" = "MemberId")) %>%
+  left_join(DraftOrderData ,by = c("seasonId" ,"TeamId" = "teamId")) %>% 
+  left_join(TransactionData ,by = c("seasonId" ,"TeamId")) %>% 
+  left_join(SettingsData ,by = "seasonId") %>% 
+  mutate(PlayoffAppearance = if_else(playoffSeed <= settings.scheduleSettings.playoffTeamCount ,1 ,0)) %>% 
+  select(seasonId ,FullName ,displayName ,everything())
+
+## Getting the weekly scores into the correct format
+LongWeeklyScores <- map(RawBoxscoreList
+                        ,~.x %>%
+                          as_tibble() %>% 
+                          rename(LeagueId = id) %>%
+                          unnest(teams) %>% 
+                          rename(TeamId = id) %>%
+                          unnest(schedule) %>%
+                          rename(ScheduleId = id) %>%
+                          select(seasonId ,matchupPeriodId ,ScheduleId ,away.teamId ,away.totalPoints ,away.tiebreak ,home.teamId ,home.totalPoints ,home.tiebreak) %>%
+                          gather(key = "TeamType" ,value = "TeamId" ,away.teamId ,home.teamId) %>%
+                          mutate(TeamType = str_remove_all(TeamType ,pattern = "\\.teamId") %>% str_to_title()) %>%
+                          gather(key = "TeamTypePoints" ,value = "TotalPoints" ,away.totalPoints ,home.totalPoints) %>%
+                          mutate(TeamTypePoints = str_remove_all(TeamTypePoints ,pattern = "\\.totalPoints") %>% str_to_title()) %>%
+                          gather(key = "TeamTypeTiebreak" ,value = "Tiebreak" ,away.tiebreak ,home.tiebreak) %>%
+                          mutate(TeamTypeTiebreak = str_remove_all(TeamTypeTiebreak ,pattern = "\\.tiebreak") %>% str_to_title()) %>%
+                          filter(TeamType == TeamTypePoints & TeamType == TeamTypeTiebreak) %>%
+                          select(-c(TeamTypeTiebreak ,TeamTypePoints)) %>%
+                          left_join(OwnerTeamData ,by = c("seasonId" ,"TeamId")) %>%
+                          select(seasonId:Tiebreak ,firstName ,FullName ,TeamName ,abbrev ,nickname ,PickNumber) %>%
+                          distinct() %>%
+                          arrange(ScheduleId ,TeamType)
+) %>%
+  bind_rows()
+
 ## Outputting the data
 write_csv(TeamNameData ,"Team Name.csv")
 write_csv(OwnerNameData ,"Owner Name.csv")
 write_csv(SettingsData ,"Settings.csv")
 write_csv(DraftOrderData ,"Draft Order.csv")
 write_csv(TransactionData ,"Transactions.csv")
+write_csv(OwnerTeamData ,"Owner and Teams.csv")
+write_csv(LongWeeklyScores ,"Scoreboard.csv")
 
 
 
