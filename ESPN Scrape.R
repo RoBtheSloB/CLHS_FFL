@@ -10,7 +10,7 @@ options(dplyr.summarise.inform=F)
 
 ## Inputs
 StartYear <- 2016
-EndYear <- 2020
+EndYear <- 2021
 
 BaseUrl <- "https://fantasy.espn.com/apis/v3/games/ffl/leagueHistory/615594?seasonId="
 TotalYears <- EndYear - StartYear + 1
