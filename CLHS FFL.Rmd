@@ -115,27 +115,30 @@ OpponentData <- AllMatchupOptions %>%
   select(seasonId ,matchupPeriodId ,WeekType ,ScheduleId ,Owner ,Opponent ,TotalPoints ,OpposingPoints ,Win) %>% 
   mutate(PointMargin = TotalPoints - OpposingPoints)
 
-LongScoringData %>% 
-  left_join(OwnerTeamData %>% select(seasonId ,TeamId ,PlayoffAppearance) ,by = c("seasonId" ,"TeamId")) %>% 
-  select(seasonId ,TeamId ,firstName ,matchupPeriodId ,ScheduleId ,WeekType ,Win ,PlayoffAppearance) %>% 
-  arrange(TeamId ,seasonId ,matchupPeriodId) %>% 
-  mutate(PriorWeekResult = lag(Win)
-         ,WeekType2 = if_else(WeekType == "Regular" 
-                              ,WeekType 
-                              ,if_else(PlayoffAppearance == 0
-                                       ,"Consolation"
-                                       ,if_else(PriorWeekResult == 0
-                                                ,"Consolation"
-                                                ,"Playoffs"
-                                                )
-                                       )
-                              )
-         ) %>% 
-  filter(WeekType2 == "Playoffs") %>% 
-  arrange(seasonId ,matchupPeriodId ,ScheduleId) %>% View()
-  
-LongScoringData %>% 
-  left_join(OwnerTeamData %>% select(seasonId ,TeamId ,PlayoffAppearance) ,by = c("seasonId" ,"TeamId")) %>%
+## Work in Progress
+## ... honestly not too sure what I was trying to do here
+## Should come back and try to understand it
+# LongScoringData %>% 
+#   left_join(OwnerTeamData %>% select(seasonId ,TeamId ,PlayoffAppearance) ,by = c("seasonId" ,"TeamId")) %>% 
+#   select(seasonId ,TeamId ,firstName ,matchupPeriodId ,ScheduleId ,WeekType ,Win ,PlayoffAppearance) %>% 
+#   arrange(TeamId ,seasonId ,matchupPeriodId) %>% 
+#   mutate(PriorWeekResult = lag(Win)
+#          ,WeekType2 = if_else(WeekType == "Regular" 
+#                               ,WeekType 
+#                               ,if_else(PlayoffAppearance == 0
+#                                        ,"Consolation"
+#                                        ,if_else(PriorWeekResult == 0
+#                                                 ,"Consolation"
+#                                                 ,"Playoffs"
+#                                                 )
+#                                        )
+#                               )
+#          ) %>% 
+#   filter(WeekType2 == "Playoffs") %>% 
+#   arrange(seasonId ,matchupPeriodId ,ScheduleId) %>% View()
+#   
+# LongScoringData %>% 
+#   left_join(OwnerTeamData %>% select(seasonId ,TeamId ,PlayoffAppearance) ,by = c("seasonId" ,"TeamId")) %>%
 
 ```
 
@@ -714,14 +717,6 @@ selectInput("YearInput4"
 
 Column {data-width=450}
 -----------------------------------------------------------------------
-
-
-
-
-
-
-
-
 
 ```{r ,include = FALSE}
 ### Regular Season Win Streak
